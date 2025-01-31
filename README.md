@@ -6,11 +6,12 @@ This uses Unoffical [Linkedin API Docs](https://linkedin-api.readthedocs.io/en/l
 
 ---
 
-## Usage
+# Configuration
 
 After cloning the repo, adjust the `<LOCAL_PATH>` accordingly
 
 ```python
+{
     "linkedin":{
         "command":"uv",
         "args": [
@@ -19,6 +20,16 @@ After cloning the repo, adjust the `<LOCAL_PATH>` accordingly
             "run",
             "linkedin.py"
         ]
-    }    
+    }   
+}     
 
 ```
+
+---
+
+# Usage
+
+I have been testing using [MCP-client](https://github.com/chrishayuk/mcp-cli) and found as the best one for testing your `MCP-Servers`.
+
+
+
