@@ -1,0 +1,255 @@
+{
+  "timestamp": "2025-08-23T09:37:53.293700",
+  "search_params": {
+    "keywords": "SEO",
+    "location": "Paris, Île-de-France, France",
+    "limit": 20
+  },
+  "results": {
+    "total_jobs": 20,
+    "seo_in_title": 3,
+    "effectiveness": 15.0,
+    "jobs": [
+      {
+        "trackingUrn": "urn:li:jobPosting:4289500466",
+        "repostedJob": false,
+        "title": "Head of Performance Marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "119416620",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289500466"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287933397",
+        "repostedJob": false,
+        "title": "Content & Acquisition Specialist (H/F)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "689162362",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4287933397"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289787629",
+        "repostedJob": false,
+        "title": "Responsable Marketing & Expérience Client Digital",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "93360630",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4289787629"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289799297",
+        "repostedJob": false,
+        "title": "Growth Marketer",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "221301215",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289799297"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289795475",
+        "repostedJob": false,
+        "title": "SEO Content Editor",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "89055945",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289795475"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4244810139",
+        "repostedJob": true,
+        "title": "Growth Director",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "497493703",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4244810139"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289759326",
+        "repostedJob": false,
+        "title": "Growth Analytics & Conversion Manager (CRO) H/F",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289759326"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289510388",
+        "repostedJob": false,
+        "title": "Account Manager [Opening soon]",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "553009075",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289510388"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289913793",
+        "repostedJob": false,
+        "title": "Casino Manager",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "575912362",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289913793"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289772590",
+        "repostedJob": false,
+        "title": "Référenceur SEO F/H",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289772590"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287154445",
+        "repostedJob": false,
+        "title": "Head of Amazon",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "860790136",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4287154445"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287106444",
+        "repostedJob": false,
+        "title": "Head of Marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "524948575",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287106444"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287143059",
+        "repostedJob": false,
+        "title": "Responsable marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1063169889",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287143059"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4232921568",
+        "repostedJob": true,
+        "title": "General Manager - Casual Games",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "331296772",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4232921568"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289495757",
+        "repostedJob": false,
+        "title": "YouTube Channel Manager Strategist  - Freelance pour un média (H/F)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "146948280",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289495757"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287613469",
+        "repostedJob": false,
+        "title": "Spontaneous Application",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "158249367",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287613469"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289902166",
+        "repostedJob": false,
+        "title": "Country Manager (France)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289902166"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4288212280",
+        "repostedJob": true,
+        "title": " E-learning Head of Growth [379]",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "653385269",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4288212280"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287128491",
+        "repostedJob": false,
+        "title": "Web Optimization & SEO Specialist",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1052553975",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287128491"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4260154563",
+        "repostedJob": true,
+        "title": "French Linguistic QA Specialist",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "581052789",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4260154563"
+      }
+    ]
+  }
+}

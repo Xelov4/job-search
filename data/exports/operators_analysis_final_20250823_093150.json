@@ -1,0 +1,59 @@
+{
+  "analysis_timestamp": "2025-08-23T09:31:50.979777",
+  "test_results": {
+    "simple_seo": {
+      "query": "SEO",
+      "total_jobs": 20,
+      "highly_relevant": 6,
+      "moderately_relevant": 4,
+      "poorly_relevant": 7,
+      "completely_irrelevant": 3,
+      "effectiveness": 54.5,
+      "seo_in_title": 3,
+      "casino_manager_present": true
+    },
+    "compound_keywords": {
+      "query": "SEO Search Engine Optimization",
+      "total_jobs": 20,
+      "highly_relevant": 1,
+      "moderately_relevant": 2,
+      "poorly_relevant": 10,
+      "completely_irrelevant": 7,
+      "effectiveness": 18.0,
+      "seo_in_title": 1,
+      "casino_manager_present": true
+    },
+    "linkedin_operators": {
+      "exact_phrase": {
+        "query": "\"SEO Specialist\"",
+        "total_jobs": 1,
+        "seo_direct": 1,
+        "effectiveness": 100.0,
+        "casino_manager_present": false
+      },
+      "exclusion_operators": {
+        "query": "SEO NOT (casino OR gaming)",
+        "total_jobs": 0,
+        "effectiveness": 0.0,
+        "casino_manager_present": false
+      },
+      "complex_boolean": {
+        "query": "(SEO OR référenceur) AND (senior OR manager OR lead)",
+        "total_jobs": 0,
+        "effectiveness": 0.0
+      }
+    }
+  },
+  "key_findings": {
+    "best_simple_approach": "SEO (54.5% efficacité)",
+    "best_precise_approach": "\"SEO Specialist\" (100% efficacité, 1 résultat)",
+    "operators_effectiveness": "Très limitée, documentation trompeuse",
+    "recommended_strategy": "Recherche simple + filtrage post-recherche"
+  },
+  "metrics": {
+    "baseline_simple_seo": 54.5,
+    "target_with_filtering": 75.0,
+    "target_with_exact_phrases": 85.0,
+    "acceptable_minimum": 60.0
+  }
+}

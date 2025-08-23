@@ -1,0 +1,58 @@
+{
+  "timestamp": "2025-08-23T09:29:32.032437",
+  "searches_tested": 6,
+  "results": {
+    "Phrases exactes SEO": {
+      "query": "\"SEO Specialist\"",
+      "count": 1,
+      "seo_in_top5": 1,
+      "jobs": [
+        {
+          "trackingUrn": "urn:li:jobPosting:4287128491",
+          "repostedJob": false,
+          "title": "Web Optimization & SEO Specialist",
+          "$recipeTypes": [
+            "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+          ],
+          "posterId": "1052553975",
+          "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+          "contentSource": "JOBS_PREMIUM_OFFLINE",
+          "entityUrn": "urn:li:fsd_jobPosting:4287128491"
+        }
+      ],
+      "effectiveness": 20.0
+    },
+    "Exclusion Casino Manager": {
+      "query": "SEO NOT (casino OR gaming)",
+      "count": 0,
+      "effectiveness": 0
+    },
+    "SEO Senior/Manager": {
+      "query": "(SEO OR référenceur) AND (senior OR manager OR lead)",
+      "count": 0,
+      "effectiveness": 0
+    },
+    "Multilingue avec exclusions": {
+      "query": "(SEO OR \"référenceur SEO\" OR \"Search Engine Optimization\") NOT (stage OR junior)",
+      "count": 0,
+      "effectiveness": 0
+    },
+    "Growth + SEO": {
+      "query": "(\"Growth Manager\" OR \"Performance Marketing\") AND SEO",
+      "count": 0,
+      "effectiveness": 0
+    },
+    "Exclusion complète bruit": {
+      "query": "SEO NOT (casino OR gaming OR \"spontaneous application\" OR \"general manager\")",
+      "count": 0,
+      "effectiveness": 0
+    }
+  },
+  "ranking": [
+    [
+      "Phrases exactes SEO",
+      20.0
+    ]
+  ],
+  "best_query": "\"SEO Specialist\""
+}
