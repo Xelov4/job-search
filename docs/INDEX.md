@@ -11,6 +11,8 @@
 | 📊 **Extraction complète** | Script d'extraction avancé | [scripts/complete_extraction.md](scripts/complete_extraction.md) |
 | 🧹 **Recherche optimisée** | Script de production | [scripts/final_search_clean.md](scripts/final_search_clean.md) |
 | 🔌 **API LinkedIn** | Documentation technique API | [api/linkedin_api.md](api/linkedin_api.md) |
+| 🔍 **Opérateurs LinkedIn** | Guide des opérateurs de recherche officiels | [linkedin_search_operators.md](linkedin_search_operators.md) |
+| 🌐 **Portail HTML** | Interface web moderne | [portal_html.md](portal_html.md) |
 
 ---
 
@@ -21,6 +23,8 @@ docs/
 ├── 📋 INDEX.md                    # Ce fichier - Index général
 ├── 📖 README.md                   # Vue d'ensemble du projet
 ├── 🏗️ architecture.md             # Architecture technique
+├── 🌐 portal_html.md              # Documentation portail HTML
+├── 🔍 linkedin_search_operators.md # Opérateurs de recherche officiels
 │
 ├── 📚 scripts/                    # Documentation des scripts
 │   ├── complete_extraction.md     # Script d'extraction exhaustive
@@ -192,6 +196,7 @@ docs/
 
 | Version | Date | Modifications | Auteur |
 |---------|------|---------------|--------|
+| **1.1** | Août 2025 | Ajout portail HTML + extraction enrichie | Claude Code |
 | **1.0** | Août 2025 | Documentation complète initiale | Claude Code |
 | **0.9** | Août 2025 | Scripts et architecture de base | Claude Code |
 | **0.8** | Août 2025 | Correction bugs extraction | Claude Code |

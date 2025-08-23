@@ -1,8 +1,0 @@
-README.md
-pyproject.toml
-src/linkedin.py
-src/linkedin_mcp.egg-info/PKG-INFO
-src/linkedin_mcp.egg-info/SOURCES.txt
-src/linkedin_mcp.egg-info/dependency_links.txt
-src/linkedin_mcp.egg-info/requires.txt
-src/linkedin_mcp.egg-info/top_level.txt

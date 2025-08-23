@@ -131,7 +131,17 @@ dmypy.json
 # LinkedIn MCP specific
 search_results_raw.json
 seo_jobs_paris_*.json
-*.log
+config/.env
+
+# Temporary directories
+data/temp/
+logs/
+tmp/
+
+# Large export files (keep analysis results only)
+data/exports/complete_extraction_*.json
+data/exports/improved_search_*.json
+data/exports/test_focused_*.json
 
 # IDE
 .vscode/
