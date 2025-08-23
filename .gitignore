@@ -129,19 +129,29 @@ dmypy.json
 .pyre/
 
 # LinkedIn MCP specific
-search_results_raw.json
-seo_jobs_paris_*.json
 config/.env
 
 # Temporary directories
 data/temp/
 logs/
 tmp/
+backup/
 
-# Large export files (keep analysis results only)
+# Exports accumulés - éviter accumulation
+data/exports/*.html
 data/exports/complete_extraction_*.json
+data/exports/comprehensive_seo_search_*.json
+data/exports/geoloc_comparison_*.json
 data/exports/improved_search_*.json
+data/exports/operators_analysis_*.json
+data/exports/seo_idf_*.json
+data/exports/seo_variants_*.json
 data/exports/test_focused_*.json
+
+# Documentation obsolète automatique
+RAPPORT_*.md
+EXPLORATION_*.md
+RESUME_EXECUTIF_*.md
 
 # IDE
 .vscode/

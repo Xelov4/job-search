@@ -1,0 +1,615 @@
+{
+  "timestamp": "2025-08-23T10:24:43.933755",
+  "search_params": {
+    "keywords": "SEO",
+    "location": "Paris, Île-de-France, France",
+    "limit": 50
+  },
+  "results": {
+    "total_jobs": 50,
+    "seo_in_title": 3,
+    "effectiveness": 6.0,
+    "jobs": [
+      {
+        "trackingUrn": "urn:li:jobPosting:4289500466",
+        "repostedJob": false,
+        "title": "Head of Performance Marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "119416620",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289500466"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4276864870",
+        "repostedJob": true,
+        "title": "Growth & Strategy Manager",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "626910737",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4276864870"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289510388",
+        "repostedJob": false,
+        "title": "Account Manager [Opening soon]",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "553009075",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289510388"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289913793",
+        "repostedJob": false,
+        "title": "Casino Manager",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "575912362",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289913793"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289501332",
+        "repostedJob": false,
+        "title": "Marketing Director",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1209314372",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289501332"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289760879",
+        "repostedJob": false,
+        "title": "Product Content Expert - Remote - France",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "609809852",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289760879"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289512914",
+        "repostedJob": false,
+        "title": "Growth Marketing Specialist",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "369598437",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289512914"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287154445",
+        "repostedJob": false,
+        "title": "Head of Amazon",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "860790136",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4287154445"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287106444",
+        "repostedJob": false,
+        "title": "Head of Marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "524948575",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287106444"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4264737151",
+        "repostedJob": true,
+        "title": "Conseiller numérique H/F",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "296734892",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4264737151"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287143312",
+        "repostedJob": false,
+        "title": "Développeur (IT) / Freelance",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "714407431",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287143312"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4098053620",
+        "repostedJob": true,
+        "title": "Senior Performance Marketer (Remote - Worldwide)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "634889778",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4098053620"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289536220",
+        "repostedJob": false,
+        "title": "Head of Marketing (EMEA, United Kingdom, Ireland)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "111032373",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289536220"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4222373899",
+        "repostedJob": true,
+        "title": "Regional Digital Marketing Specialist",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "144578179",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4222373899"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287100603",
+        "repostedJob": false,
+        "title": "Affiliate & Lead Génération Manager (F/H/X) ",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "699777171",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287100603"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289511034",
+        "repostedJob": false,
+        "title": "CDD _ Brand Content Manager Editorial et Social F/H",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "424329229",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289511034"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287143059",
+        "repostedJob": false,
+        "title": "Responsable marketing",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1063169889",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287143059"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4264350110",
+        "repostedJob": true,
+        "title": "Search Consultant Luxe - CDI",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "20089070",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4264350110"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289495757",
+        "repostedJob": false,
+        "title": "YouTube Channel Manager Strategist  - Freelance pour un média (H/F)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "146948280",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289495757"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287613469",
+        "repostedJob": false,
+        "title": "Spontaneous Application",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "158249367",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287613469"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289930058",
+        "repostedJob": false,
+        "title": "Responsable communication et marketing F/H",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289930058"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289902166",
+        "repostedJob": false,
+        "title": "Country Manager (France)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289902166"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287128491",
+        "repostedJob": false,
+        "title": "Web Optimization & SEO Specialist",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1052553975",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287128491"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289916436",
+        "repostedJob": false,
+        "title": "CDD - Digital Executive (Display, VOL, Prog) - H/F",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "45447156",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289916436"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287933397",
+        "repostedJob": false,
+        "title": "Content & Acquisition Specialist (H/F)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "689162362",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4287933397"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4276856297",
+        "repostedJob": true,
+        "title": "Content Project Manager (F/H)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "435155225",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4276856297"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289787629",
+        "repostedJob": false,
+        "title": "Responsable Marketing & Expérience Client Digital",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "93360630",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4289787629"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289799297",
+        "repostedJob": false,
+        "title": "Growth Marketer",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "221301215",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289799297"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289795475",
+        "repostedJob": false,
+        "title": "SEO Content Editor",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "89055945",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289795475"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4244810139",
+        "repostedJob": true,
+        "title": "Growth Director",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "497493703",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4244810139"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289484855",
+        "repostedJob": false,
+        "title": "Chef de projet Marketing Généraliste H/F",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "635547581",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289484855"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4290029778",
+        "repostedJob": false,
+        "title": "organizing the content of 450 archived newsletters from website",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "364648347",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4290029778"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289772590",
+        "repostedJob": false,
+        "title": "Référenceur SEO F/H",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289772590"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289498325",
+        "repostedJob": false,
+        "title": "Senior Marketing Manager",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "592603769",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289498325"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287127484",
+        "repostedJob": false,
+        "title": "CDI - CRM & LIFECYCLE MARKETING MANAGER",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "608884508",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287127484"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289913377",
+        "repostedJob": false,
+        "title": "Country Manager (France)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289913377"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287102009",
+        "repostedJob": false,
+        "title": "Growth Marketing ",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "613327376",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287102009"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4290266093",
+        "repostedJob": false,
+        "title": "Chargé(e) de Webmarketing & Contenus Digitaux (H/F)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": null,
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_CREATE",
+        "entityUrn": "urn:li:fsd_jobPosting:4290266093"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287121310",
+        "repostedJob": false,
+        "title": "Un ou une responsable de projets numériques",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "936105106",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4287121310"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4232924291",
+        "repostedJob": true,
+        "title": "User Acquisition Manager - Gaming",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "331296772",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4232924291"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4290202706",
+        "repostedJob": false,
+        "title": "Analyste Acquisition & Growth (E-Commerce / DTC)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "150438999",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4290202706"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4290250655",
+        "repostedJob": false,
+        "title": "Lead Professional, Energy Marketing, Paris/France",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "55694020",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4290250655"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289990284",
+        "repostedJob": false,
+        "title": "Product Marketing Manager",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "66760637",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289990284"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4287112970",
+        "repostedJob": false,
+        "title": "Partner / CEO",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "1113743088",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM",
+        "entityUrn": "urn:li:fsd_jobPosting:4287112970"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4263384197",
+        "repostedJob": true,
+        "title": "Lead Strategy & Operations Manager (Product)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "364512187",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4263384197"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289471838",
+        "repostedJob": false,
+        "title": "Director of Marketing Intelligence & Research Integrity",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "401551386",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289471838"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4267072563",
+        "repostedJob": true,
+        "title": "(fluent Ukrainian) Head of User Acquisition (Marketing)",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "608670997",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4267072563"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4288212280",
+        "repostedJob": true,
+        "title": " E-learning Head of Growth [379]",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "653385269",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4288212280"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4289758935",
+        "repostedJob": false,
+        "title": "Directeur marketing et communication / Directrice marketing et communication",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "717740306",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4289758935"
+      },
+      {
+        "trackingUrn": "urn:li:jobPosting:4238785856",
+        "repostedJob": true,
+        "title": "Content Editor - iGaming",
+        "$recipeTypes": [
+          "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+        ],
+        "posterId": "89055945",
+        "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+        "contentSource": "JOBS_PREMIUM_OFFLINE",
+        "entityUrn": "urn:li:fsd_jobPosting:4238785856"
+      }
+    ]
+  }
+}
