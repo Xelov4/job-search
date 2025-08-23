@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
 """
-Script final corrigé pour la recherche d'emplois SEO à Paris avec extraction propre des données
+Test du script principal avec extraction focalisée
 """
+import sys
+sys.path.insert(0, 'src')
+
 from linkedin_api import Linkedin
 from dotenv import load_dotenv
 import os
 import json
 from datetime import datetime
+import time
 
 # Charger les variables d'environnement depuis config/
-load_dotenv('../../config/.env')
+load_dotenv('config/.env')
 
 def format_timestamp(timestamp):
     """Convertit un timestamp en date lisible"""
@@ -113,39 +117,45 @@ def extract_structured_data(job, job_details):
     
     return data
 
-def search_seo_jobs_paris():
-    """Recherche d'emplois SEO à Paris avec extraction focalisée sur: entreprise, description, type contrat, localisation"""
+def test_focused_search():
+    """Test de la recherche focalisée avec authentification LinkedIn"""
+    print("🔍 Test de recherche SEO à Paris avec extraction focalisée...")
+    print("📊 Focus: Entreprise | Description | Type contrat | Localisation")
+    print("=" * 80)
+    
     try:
-        # Initialiser l'API LinkedIn
+        # Tentative d'authentification LinkedIn
+        print("🔐 Authentification LinkedIn en cours...")
         linkedin = Linkedin(
             os.getenv("LINKEDIN_EMAIL"), 
             os.getenv("LINKEDIN_PASSWORD"), 
             debug=False
         )
+        print("✅ Authentification réussie!")
         
-        print("🔍 Recherche d'emplois SEO à Paris, France...")
-        print("📊 Extraction focalisée: Entreprise | Description | Type contrat | Localisation")
-        print("=" * 80)
+        # Petite pause pour éviter les limites de taux
+        time.sleep(2)
         
-        # Effectuer la recherche
+        # Effectuer la recherche avec limite réduite pour le test
+        print("🔍 Recherche d'emplois SEO...")
         search_results = linkedin.search_jobs(
             keywords="SEO",
-            location="Paris, France",
-            limit=20
+            location="Paris, France", 
+            limit=5  # Limite réduite pour test rapide
         )
         
         if not search_results:
-            print("❌ Aucun emploi trouvé avec ces critères.")
+            print("❌ Aucun emploi trouvé")
             return
         
-        print(f"✅ {len(search_results)} emplois trouvés !\n")
+        print(f"✅ {len(search_results)} emplois trouvés pour le test!\n")
         
         # Stocker les données structurées
         structured_jobs = []
         
-        # Traiter chaque emploi
+        # Traiter chaque emploi avec les nouvelles fonctions
         for i, job in enumerate(search_results, 1):
-            print(f"📋 **Emploi {i}: {job.get('title', 'N/A')}**")
+            print(f"📋 **Test Emploi {i}: {job.get('title', 'N/A')}**")
             
             # Récupérer les détails complets
             job_details = None
@@ -153,55 +163,54 @@ def search_seo_jobs_paris():
                 try:
                     job_id = job['entityUrn'].split(':')[-1]
                     job_details = linkedin.get_job(job_id)
+                    time.sleep(1)  # Pause entre les requêtes
                 except Exception as e:
-                    print(f"   ⚠️  Erreur lors de la récupération: {str(e)}")
+                    print(f"   ⚠️  Erreur détails: {str(e)}")
             
-            # Extraire les données structurées
+            # Extraire les données avec la nouvelle fonction
             data = extract_structured_data(job, job_details)
             structured_jobs.append(data)
             
-            # Afficher les informations demandées
+            # Affichage focalisé sur les données demandées
             print(f"   🏢 Entreprise: {data['entreprise']}")
             print(f"   📍 Localisation: {data['localisation']}")
             print(f"   📋 Type contrat: {data['type_contrat']}")
-            print(f"   🏠 Lieu de travail: {data['type_lieu_travail']}")
+            print(f"   🏠 Lieu travail: {data['type_lieu_travail']}")
             print(f"   📅 Publication: {data['date_publication']}")
             
-            # Description (tronquée pour l'affichage)
+            # Description (focus principal)
             if data['description']:
-                if len(data['description']) > 150:
-                    print(f"   📝 Description: {data['description'][:150]}...")
-                else:
-                    print(f"   📝 Description: {data['description']}")
+                print(f"   📝 Description: {data['description'][:200]}...")
             else:
-                print(f"   📝 Description: Aucune description disponible")
+                print(f"   📝 Description: Non disponible")
             
             print("-" * 80)
         
-        # Sauvegarder les données structurées dans data/exports/
+        # Sauvegarder le test
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"../../data/exports/seo_jobs_structured_{timestamp}.json"
+        filename = f"data/exports/test_focused_extraction_{timestamp}.json"
         
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(structured_jobs, f, indent=2, ensure_ascii=False)
         
-        print(f"💾 Données structurées sauvegardées dans '{filename}'")
-        print(f"📊 {len(structured_jobs)} emplois avec données complètes extraites")
+        print(f"💾 Test sauvegardé: {filename}")
+        print(f"📊 Résultat: {len(structured_jobs)} emplois avec données structurées")
         
-        # Résumé des données extraites
+        # Analyse des résultats
         companies = [job['entreprise'] for job in structured_jobs if job['entreprise'] != 'N/A']
         contract_types = [job['type_contrat'] for job in structured_jobs if job['type_contrat'] != 'N/A']
         locations = [job['localisation'] for job in structured_jobs if job['localisation'] != 'N/A']
         
-        print(f"\n📈 Résumé:")
-        print(f"   Entreprises identifiées: {len(set(companies))}")
-        print(f"   Types de contrats: {len(set(contract_types))}")
-        print(f"   Localisations: {len(set(locations))}")
+        print(f"\n📈 Analyse du test:")
+        print(f"   ✅ Entreprises extraites: {len(companies)}/{len(structured_jobs)}")
+        print(f"   ✅ Types contrats: {len(set(contract_types))} types différents")
+        print(f"   ✅ Localisations: {len(set(locations))} lieux différents")
+        print(f"   ✅ Descriptions: {len([j for j in structured_jobs if j['description']])}/{len(structured_jobs)}")
         
     except Exception as e:
-        print(f"❌ Erreur lors de la recherche: {e}")
+        print(f"❌ Erreur durant le test: {e}")
         import traceback
         traceback.print_exc()
 
 if __name__ == "__main__":
-    search_seo_jobs_paris()
+    test_focused_search()
