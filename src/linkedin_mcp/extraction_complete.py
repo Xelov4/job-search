@@ -220,7 +220,7 @@ def search_complete_jobs():
         search_results = linkedin.search_jobs(
             keywords="SEO",
             location="Paris, France",
-            limit=10  # 10 emplois pour analyse détaillée
+            limit=20  # 20 emplois pour analyse complète
         )
         
         if not search_results:

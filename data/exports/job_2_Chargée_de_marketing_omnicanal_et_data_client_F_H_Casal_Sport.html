@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chargé(e) de marketing omnicanal et data client (F/H) - Casal Sport</title>
+    <style>
+        
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.1);
+        overflow: hidden;
+        animation: slideUp 0.6s ease-out;
+    }
+
+    @keyframes slideUp {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .header {
+        background: linear-gradient(45deg, #2196F3, #21CBF3);
+        color: white;
+        padding: 40px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+        animation: rotate 20s linear infinite;
+    }
+
+    @keyframes rotate {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .job-title {
+        font-size: 2.2em;
+        font-weight: 700;
+        margin-bottom: 10px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .company-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        z-index: 1;
+        position: relative;
+    }
+
+    .company-logo {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background: white;
+        padding: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .company-logo img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .company-name {
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    .content {
+        padding: 40px;
+    }
+
+    .info-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-bottom: 40px;
+    }
+
+    .info-card {
+        background: linear-gradient(145deg, #f8f9ff, #e8eeff);
+        border-radius: 12px;
+        padding: 25px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .info-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    }
+
+    .info-card h3 {
+        color: #2196F3;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .info-card p {
+        color: #666;
+        font-size: 0.95em;
+    }
+
+    .description-section {
+        background: #f8f9fa;
+        border-radius: 12px;
+        padding: 35px;
+        margin: 30px 0;
+        border-left: 5px solid #2196F3;
+    }
+
+    .description-section h2 {
+        color: #2196F3;
+        font-size: 1.4em;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .description-text {
+        color: #555;
+        line-height: 1.8;
+        font-size: 0.95em;
+        white-space: pre-line;
+    }
+
+    .apply-section {
+        background: linear-gradient(45deg, #4CAF50, #45a049);
+        color: white;
+        padding: 30px;
+        text-align: center;
+        margin: 30px 0;
+        border-radius: 12px;
+    }
+
+    .apply-btn {
+        display: inline-block;
+        background: white;
+        color: #4CAF50;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 25px;
+        font-weight: 600;
+        font-size: 1.1em;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .apply-btn:hover {
+        background: #f0f0f0;
+        transform: translateY(-2px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    }
+
+    .footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9em;
+    }
+
+    .back-link {
+        display: inline-block;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        color: white;
+        padding: 12px 25px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        transition: all 0.3s ease;
+        font-weight: 500;
+    }
+
+    .back-link:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .icon {
+        font-size: 1.2em;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            margin: 10px;
+            border-radius: 10px;
+        }
+        
+        .header {
+            padding: 25px;
+        }
+        
+        .job-title {
+            font-size: 1.6em;
+        }
+        
+        .company-info {
+            flex-direction: column;
+        }
+        
+        .content {
+            padding: 25px;
+        }
+        
+        .info-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="company-info">
+                <div class="company-logo">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQHmOOeNEWuH8A/company-logo_200_200/company-logo_200_200/0/1631368277354?e=1758758400&v=beta&t=09TmcNrvVkr3PDkCm-cPGgkCFJvamEXOEQB37pqXENk" alt="Logo Casal Sport" onerror="this.style.display='none';">
+                </div>
+                <div>
+                    <h1 class="job-title">Chargé(e) de marketing omnicanal et data client (F/H)</h1>
+                    <p class="company-name">Casal Sport</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <a href="index.html" class="back-link">← Retour aux offres</a>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3><span class="icon">📍</span> Localisation</h3>
+                    <p>Molsheim, Grand Est, France</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3><span class="icon">🏠</span> Type de travail</h3>
+                    <p>Hybrid</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3><span class="icon">📅</span> Date de publication</h3>
+                    <p>22/08/2025 16:14</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3><span class="icon">🔢</span> ID de l'offre</h3>
+                    <p>4289913722</p>
+                </div>
+            </div>
+
+            <div class="description-section">
+                <h2><span class="icon">📋</span> Description du poste</h2>
+                <div class="description-text">Filiale du Groupe Manutan, Casal Sport est leader en France depuis 45 ans, dans la vente de matériel et d’équipements de sport aux collectivités, établissements scolaires et clubs sportifs, avec pour mission de « Stimuler la pratique du sport ensemble ». Nous sommes une équipe de plus de 120 collaborateurs passionnés, dynamiques et performants, basés à Altorf (67) à 20km de Strasbourg (Gare TER puis 7 minutes à pied) Casal Sport cherche un(e) Chargé(e) de marketing omnicanal et data client. Mission principale
+Sous la responsabilité du Responsable Marketing Client, vous êtes chargé(e) d’analyser en profondeur la dynamique de notre parc client pour identifier les leviers de croissance sur nos marchés stratégiques : collectivités, enseignement, clubs. Vous êtes également garant(e) de la coordination des opérations marketing client mensuelles sur l’ensemble des canaux de vente et de communication (e-commerce, forces de vente terrain, service client, réseaux sociaux…).Votre rôle s’articule autour de cinq piliers :L’analyse des comportements et de la performance client à partir de données concrètesL’identification des problématiques par typologie client, canal et zone géographiqueLa mise en œuvre (avec l’équipe marketing) d’actions correctrices ou d’accélérationLa coordination et l’adaptation des opérations du plan marketing clientLa garantie d’une mise à jour et de l’enrichissement de la base de données en continu
+Responsabilités
+Analyse du parc client et diagnostic businessAnalyser l’évolution du parc par typologie de clients : nouveaux, fidèles, dormants, perdus à travers les différents tableaux de bords et KPIs mis à dispositionMettre en évidence les causes possibles à partir des données disponibles : chiffres d’affaires, devis, fréquence d’achat, panier moyen…Traduire ces constats en actions en collaboration avec l’ensemble des parties prenantes (service marketing client, responsable nationale des ventes, marketing de l’offre…)Suivre les résultats des actions et les ajuster selon les retours marché pour maximiser la performance
+Coordination des opérations marketing clientAssurer la mise en œuvre des opérations prévues dans le plan marketing mensuel par marché (collectivités, enseignement et associations sportives)Veiller à la cohérence et à la déclinaison des actions sur tous les canaux :Digital (site, emailings, bannières)Print (catalogue, outils d’aide à la vente)CRM (campagnes commerciales, ciblage)Réseaux sociaux (contenus, campagnes sponsorisées)Coordonner les opérations avec les équipes opérationnelles : marketing, commerce, création, service client.
+Suivi de la performance et amélioration continueProduire et mettre à jour les tableaux de bord de pilotage clientAssurer le reporting régulier des KPIs relationnels : activation, fidélisation, taux d’attrition, réachatÊtre force de proposition sur les outils à optimiser (CRM, BI, tableaux de suivi, base de données client)
+Collaboration avec le gestionnaire de la base clientTravailler étroitement avec le gestionnaire de la base client, garant de la qualité, de la structuration et de la qualification des données Participer à l’amélioration continue des données utilisées pour les ciblages, segmentations et analyses, et en suivre les indicateurs de qualité
+Ce que ce poste vous offre :
+Un rôle central dans le pilotage de la stratégie client au sein d’une organisation structuréeUn fort niveau de responsabilité dans l’analyse et la prise de décisions marketingUne exposition à des projets stratégiques dans un environnement B2B omnicanal, avec un lien direct entre les actions menées et les résultats commerciaux
+Un cadre stimulant pour les passionné(e)s de sport, où votre esprit d'équipe et votre affinité avec cet univers feront toute la différence. Ici, votre amour du terrain se transforme en levier de performance marketing !
+
+</div>
+            </div>
+
+            <div class="apply-section">
+                <h2>💼 Prêt à rejoindre l'équipe ?</h2>
+                <p style="margin: 15px 0;">Postulez dès maintenant et faites le premier pas vers votre nouvelle carrière !</p>
+                <a href="https://carrieres.manutan.com/fr/annonce/3861657-chargee-de-marketing-omnicanal-et-data-client-fh-67120-altorf" target="_blank" class="apply-btn">Postuler à cette offre</a>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Offre extraite le 23/08/2025 à 03:02 | Données LinkedIn</p>
+        </div>
+    </div>
+</body>
+</html>
