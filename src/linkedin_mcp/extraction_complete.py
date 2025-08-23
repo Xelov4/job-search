@@ -8,8 +8,8 @@ import os
 import json
 from datetime import datetime
 
-# Charger les variables d'environnement
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 def format_timestamp(timestamp):
     """Convertit un timestamp en date lisible"""
@@ -289,9 +289,9 @@ def search_complete_jobs():
             all_jobs_complete.append(basic_job_data)
             print("\n")
         
-        # Sauvegarde complète
+        # Sauvegarde complète dans data/exports/
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"complete_extraction_{timestamp}.json"
+        filename = f"../../data/exports/complete_extraction_{timestamp}.json"
         
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(all_jobs_complete, f, indent=2, ensure_ascii=False, default=str)

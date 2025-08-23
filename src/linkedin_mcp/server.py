@@ -4,7 +4,8 @@ from dotenv import load_dotenv
 import os
 import logging
 
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 mcp = FastMCP("LinkedIn-MCP")
 logger = logging.getLogger(__name__)

@@ -7,7 +7,8 @@ from dotenv import load_dotenv
 import os
 
 # Charger les variables d'environnement
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 def test_seo_job_search():
     """Test de recherche d'emplois SEO à Paris"""

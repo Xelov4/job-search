@@ -8,7 +8,8 @@ import os
 import json
 
 # Charger les variables d'environnement
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 def test_enhanced_seo_job_search():
     """Test de recherche d'emplois SEO à Paris avec plus de détails"""
@@ -66,7 +67,7 @@ def test_enhanced_seo_job_search():
             print("-" * 60)
         
         # Sauvegarder les résultats bruts pour analyse
-        with open('search_results_raw.json', 'w', encoding='utf-8') as f:
+        with open('../../data/temp/search_results_raw.json', 'w', encoding='utf-8') as f:
             json.dump(search_results, f, indent=2, ensure_ascii=False)
         print("💾 Résultats bruts sauvegardés dans 'search_results_raw.json'")
         

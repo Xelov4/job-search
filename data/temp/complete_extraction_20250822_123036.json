@@ -1,0 +1,945 @@
+[
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4289767612",
+      "repostedJob": false,
+      "title": "Responsable marketing",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "677395806",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM",
+      "entityUrn": "urn:li:fsd_jobPosting:4289767612"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Responsable marketing",
+        "job_id": 4289767612,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4289767612",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4289767612",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Keez",
+        "entityUrn": "urn:li:fs_normalized_company:100669449",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGqNLbXGJUueg/company-logo_200_200/company-logo_200_200/0/1728486386922/keez_app_logo?e=1758758400&v=beta&t=bhgY5pURviDcSLwyLp_rBsrEQPu_yuFg2yyhuOWXkQ0"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGqNLbXGJUueg/company-logo_100_100/company-logo_100_100/0/1728486386922/keez_app_logo?e=1758758400&v=beta&t=jZKsRZrQUHdMObmELzJUhEsf0B9c2FKyFxPjJ20f89A"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGqNLbXGJUueg/company-logo_400_400/company-logo_400_400/0/1728486386922/keez_app_logo?e=1758758400&v=beta&t=SpE03AYoHPh7dLDjGY5Osk2A0IYSEcLdXJaK7lSz_hQ"
+          }
+        ]
+      },
+      "description": {
+        "text": "Keez est une application de rencontre, mais surtout une Intelligence Artificielle entrainée à calculer la compatibilité entre deux utilisateurs, en se basant sur leur psychologie, leurs valeurs, leurs aspirations, leur personnalité, leurs passions et leur histoire.\nC’est l’aboutissement de trois ans de R&D pour développer un modèle unique d’Intelligence Artificielle et une expérience utilisateur jamais vu sur le marché des applications de rencontre. Alors que nos concurrents valorisent principalement l'apparence physique, Keez redéfinit les codes en plaçant la compatibilité psychologique et émotionnelle au centre des interactions.\nKeez est disponible sur les stores depuis un an et déjà adoptée par plus de 7 000 utilisateurs. Nous avons intégré l’incubateur HEC à Station F il y a 5 mois et avons récemment bouclé une première levée de fonds de 100 000 € (juillet 2025).\nNotre ambition pour les prochains mois est claire : accélérer l’acquisition d’utilisateurs afin de valider définitivement notre produit et atteindre notre Product Market Fit.\nNous visons à devenir la référence des rencontres durables en France, avant de nous développer à l’international.\nNos objectifs à court terme : dépasser les 30 000 utilisateurs d’ici janvier 2026 et préparer une série A d’ici la fin de l’année.\nNous cherchons un(e) CMO associé(e) pour prendre en main toute la stratégie marketing et communication de Keez, avec l’ambition claire : passer d’une jeune startup à une vraie scale-up.\nOn aimerait quelqu’un de :visionnaire et force de proposition, avec une vraie lecture du marché,autonome, curieux(se), proactif(ve), qui n’a pas peur de prendre des initiatives,qui aime tester, mesurer, ajuster et recommencer sans cesse.\nIdéalement, tu as déjà une expérience solide en marketing digital/communication B2C (si c’est dans la verticale de l’amour, c’est encore mieux). Tu sais aussi bien gérer des campagnes d’acquisition, organiser des événements physiques, que développer une stratégie organique sur les réseaux sociaux.\nOn ne cherche pas forcément quelqu’un à temps plein, mais surtout une personne investie et engagée.\nRejoindre Keez, c’est rejoindre une aventure ambitieuse, incubée à Station F (HEC), avec un fort potentiel international… (et une équipe sympa 😊).",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 35,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:3"
+        ],
+        "remote_allowed": false,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:3",
+            "localized_name": "Hybrid",
+            "entity_urn": "urn:li:fs_workplaceType:3"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.ComplexOnsiteApply",
+        "details": {
+          "unifyApplyEnabled": true,
+          "easyApplyUrl": "https://www.linkedin.com/job-apply/4289767612"
+        },
+        "easy_apply": true,
+        "apply_url": "https://www.linkedin.com/job-apply/4289767612",
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755856353000,
+        "listed_at_formatted": "22/08/2025 11:52"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:00.171453"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4289275369",
+      "repostedJob": false,
+      "title": "Marketing Manager | CDI",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "816446327",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM_OFFLINE",
+      "entityUrn": "urn:li:fsd_jobPosting:4289275369"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Marketing Manager | CDI",
+        "job_id": 4289275369,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4289275369",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4289275369",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Bump",
+        "entityUrn": "urn:li:fs_normalized_company:72697873",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjDrARnexIRw/company-logo_200_200/company-logo_200_200/0/1710352515277/bump_charge_logo?e=1758758400&v=beta&t=L8Q7yjgC0LjA401BQ9-yBBVAToqclsF8PVAaURVTi0c"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjDrARnexIRw/company-logo_100_100/company-logo_100_100/0/1710352515277/bump_charge_logo?e=1758758400&v=beta&t=CrNV-_HiOrDijM8ksH_GQCs327qeSNfS-UqbhwK2NFE"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjDrARnexIRw/company-logo_400_400/company-logo_400_400/0/1710352515277/bump_charge_logo?e=1758758400&v=beta&t=0sTzac8COeorPxd_JCJA7C2GQL8Wtg4bGTdMAckaBtc"
+          }
+        ]
+      },
+      "description": {
+        "text": "L'entreprise :\nL’urgence climatique est une course que l’on peut encore gagner si l’on choisit d’être un acteur du changement !En Europe, la mobilité est responsable pour plus de 30% des émissions de CO2 et doit diminuer de 92% d’ici 2050 pour limiter le réchauffement climatique à 1,5°C.Notre mission ? Réduire les émissions de CO2 et accélérer la transition énergétique en démocratisant l’usage du véhicule électrique.\nPour cela, nous déployons un réseau de bornes de recharge clé en main sur plusieurs marchés :Les professionnels et les entreprises équipés de flotteLes foncières tertiaires et commerciales\nBump a été créée en 2020 par François Oudot (ex-Alan, Sigfox, Supélec) et François Paradis (ex-Vinci Energies, Ponts et Chaussées) et est financée à 180M€ par DIF Capital Partners (fonds ‘investissement en infrastructure avec 14Mlds€ d’actifs sous gestion).\nBump compte déjà Axa, Socotec, Campanile, StarService, DPD, SEGRO, Zity, URW et Stuart comme clients et vise de devenir l’un des leaders de la recharge en Europe.Nous rejoindre c’est rejoindre une équipe efficace et véloce pour répondre au défi de déployer 25000 bornes d’ici 2030 !\nLa mission :\nChez Bump, on révolutionne la mobilité électrique en déployant des solutions de recharge ultra-performantes. Notre mission ? Rendre la transition énergétique accessible, durable et innovante. Et pour continuer à faire rayonner notre vision, on a besoin de toi, un(e) Marketing Manager passionné(e) et créatif(ve) ! 🚀ContexteNous recherchons un Marketing Manager expert en intégration d’outils et automatisation marketing, avec une forte appétence pour l’IA et le scaling des process en place. Ta mission sera d’optimiser et d’automatiser l’ensemble du funnel d’acquisition et de conversion, en intégrant les meilleures solutions du marché.Tu travailleras en étroite collaboration avec l’équipe Business Ops et Sales pour structurer et optimiser les workflows, tout en exploitant la puissance de l’IA pour accélérer la génération de leads et maximiser la performance marketing.\nTon rôle 🎯\n🚀 Automatisation & intégration d’outilsTu déploies et optimises les workflows automatisés avec MakeTu assures une connexion fluide entre CRM (Salesforce), formulaires de contacts / inscriptions (Webflow, LinkedIn, Livestorm)Grâce à ton savoir faire en intégration et automatisation, tu contribue à l’optimisation de notre process de constitution de bases de leads / enrichissementsTu améliores continuellement les process pour maximiser l’efficacité des équipes\n🎯 Acquisition & GrowthTu optimises notre présence LinkedIn pour le développement B2B (posts / messaging Bump, process de recommandation de posts pour les sales pour booster leur personal branding / process de remontée des engagements sur nos communications aux sales afin de leur pousser des recommandations de personnes à prospecter)Tu poursuis le développement de notre stratégie SEO / Content marketing basée sur YourText Guru, GA, Search Console, Semrush (ou autre)…Tu lances notre stratégie GEOTu structures et scales les campagnes emailing (Outreach, Brevo)\n🎨 Création de contenus IA & VidéosTu produis et optimises les contenus avec YourText Guru (ou autre)Tu automatises la création de visuels et vidéos avec des outils IATu testes et implémentes des outils IA émergents pour accélérer / automatiser la production et la personnalisation des contenus\n📊 Analyse & ReportingTu suis les performances des campagnes via Google Analytics, Search Console, SemrushTu analyses les données CRM et fais des recommandations pour améliorer la conversion\nPreferred experience : 🎓 Formation : Tu es diplômé(e) d’une école de commerce ou d’ingénieur, avec une spécialisation en marketing digital, growth hacking ou un domaine similaire.\n💼 Expérience : Tu as 5 ans d’expérience en Growth Marketing / Automation et une solide expertise en intégration d’outils et automatisation de workflows.\n🛠 Compétences :Tu maîtrises les outils : Webflow, Salesforce, Make, Outreach, Brevo, Semrush, CanvaTu as une bonne compréhension du SEO et des stratégies d’acquisition B2BTu es expérimenté(e) en IA appliquée au marketing et à l’aise avec les nouvelles technologies\n🚀 Mindset :Tu es passionné(e) par la scalabilité, l’automatisation et l’IATu es curieux(se), toujours en veille sur les nouvelles solutions à implémenterTu sais structurer et scaler les process en place\nLe processus d'embauche :[Visio/Téléphone]Screening avec notre Talent Acquisition Specialist, Marie (30min)Technical Interview avec notre Head of Marketing, Morgane (1h)Behavioural Interview avec notre Design Manager, Ewa (1h)\n[Présentiel]Founder Interview avec notre CRO, Jean (30 min)Social Time avec l’équipe Marketing ☕",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 145,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List",
+            "com.linkedin.pemberly.text.Underline",
+            "com.linkedin.pemberly.text.Hyperlink"
+          ],
+          "structure_elements": [
+            "bold",
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list",
+            "underline",
+            "hyperlink"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:1"
+        ],
+        "remote_allowed": false,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:1",
+            "localized_name": "On-site",
+            "entity_urn": "urn:li:fs_workplaceType:1"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.OffsiteApply",
+        "details": {
+          "applyStartersPreferenceVoid": true,
+          "companyApplyUrl": "https://www.welcometothejungle.com/en/companies/bump-charge/jobs/content-manager_paris?q=0ed730bc75396d7dacbafa4b9aed07fe&o=c2e8f876-544d-4b27-87f5-b9d8c9e1be97",
+          "inPageOffsiteApply": false
+        },
+        "company_apply": true,
+        "apply_url": "https://www.welcometothejungle.com/en/companies/bump-charge/jobs/content-manager_paris?q=0ed730bc75396d7dacbafa4b9aed07fe&o=c2e8f876-544d-4b27-87f5-b9d8c9e1be97",
+        "unify_enabled": false
+      },
+      "dates": {
+        "listed_at": 1755782600000,
+        "listed_at_formatted": "21/08/2025 15:23"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:03.503017"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4286718722",
+      "repostedJob": false,
+      "title": "Performance Manager Senior - CDI - Hybride (H/F)",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": null,
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_CREATE",
+      "entityUrn": "urn:li:fsd_jobPosting:4286718722"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Performance Manager Senior - CDI - Hybride (H/F)",
+        "job_id": 4286718722,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4286718722",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4286718722",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Leverage",
+        "entityUrn": "urn:li:fs_normalized_company:91479428",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH0N9FV-WDPZw/company-logo_200_200/company-logo_200_200/0/1737542486419/leverage_partner_logo?e=1758758400&v=beta&t=UiUDBivwJcX9wkjCEhi7ov765lIrYhA9eF1I0l9kaek"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH0N9FV-WDPZw/company-logo_100_100/company-logo_100_100/0/1737542486419/leverage_partner_logo?e=1758758400&v=beta&t=lwOSEcesWWXAmMwUMloXDqoRPZIh-57CM7Bm1ZAo3Us"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH0N9FV-WDPZw/company-logo_400_400/company-logo_400_400/0/1737542486419/leverage_partner_logo?e=1758758400&v=beta&t=xpFyJ4VnGeqQHF8w6K-WZ0q1eyj3Y6LPbbXUi-cTF2Q"
+          }
+        ]
+      },
+      "description": {
+        "text": "Notre mission : combiner performance et excellence d'accompagnement ✨\nLeverage est une agence de performance et growth orientée à 100% en génération de leads. Nous accompagnons +100 entreprises, comme Qonto, Malt, Gorgias, Yomoni ou encore Accor et Microsoft.\nNous menons des stratégies growth sur l’intégralité du funnel (Paid, Outbound, Website, Content, Automation…) sur des problématiques de génération de leads (B2B et B2C).\nLancée il y a près d'un an, nous sommes actuellement une équipe de ±15 personnes en interne. Nous avons l’ambition de devenir l'agence de growth et de performance leader en France d’ici 2 ans, et la première d’Europe d’ici 5 ans.\nUne méthodologie dédiée à 100% à la génération de leads 🚀\nLà où les autres agences comptent ±30% de leurs clients en génération de leads, chez Leverage, c'est notre ADN et ça le restera toujours. Cela nous permets d'attteindre un niveau d'excellence, grâce à :\n\nUne approche méthodique et scientifique, pour identifier les stratégies dgrowth et de performancee les plus rentables ;\nUn suivi opérationnel orienté performance et rythmé, afin de débloquer la croissance pour nos clients ;\nUne équipe composée d'A-Players, avec des technologies développées en internes (waterfall enrichment, intent identification, AI Agents…)\n\nL'équipe 🕺\nTu rejoins une équipe d'A-Players de taille humaine, organisée autour de trois pôles : Performance & Paid, Content & SEO et enfin Outbound.\n\nTony : CEO & Growth Strategist\nPôle Performance - Mattéo, Simon et ±5 experts en Performance.\nPôle Creative Studio - Caroline, Hugo et +2 experts en création\nPôle Outbound - Clarisse et ±5 experts en Outbound\n\nSi tu souhaites rejoindre une équipe d'A-Players, et développer ta carrière en t'entourant meilleur(e)s, Leverage est fait pour toi 🔥\nVos missions\nVos missions 🎯\nLa mission consiste à gérer un portefeuille clients (6-7 clients maximun) de A à Z, avec pour missions :\n\nConstruire des stratégies de growth et de performance sur-mesure pour nos clients\nMener les sujets growth de A à Z: campagnes publicitaires (Google Ads, Meta Ads et LinkedIn Ads), campagnes d’Outbound (Database, Copywriting, Setup), sujets CRO (Conversion Rate Optimization), sujets SalesOps et RevOps (optimisations et automatisations HubSpot), etc.\nAnalyser les résultats des stratégies growth, afin d’apporter un maximum de valeur aux clients (weekly growth, monthly strategy…)\nGarantir l'excellence à tous les points de vue : opérationnel, client et interne (humain, process, documentation, etc.)\n\nVos compétences\nVotre savoir-faire ⚒️\n\nVous avez au minimum 3 ans d’expérience en Growth / Performance, et souhaitez élargir votre champs de cpmpétences\nVous souhaitez travailler autant sur l’élaboration de la stratégie que son exécution\nVous êtes naturellement doté d’un bon relationnel et avez le sens du contact client\nVous êtes force de proposition et avez le sens de responsabilités\nVous êtes autonome, et vous savez organiser vos priorités au quotidien\n\nVotre savoir-être 🤝\n\nVous adoptez une attitude positive et constructive, et vous êtes orientés « solution »\nVous êtes rigoureux et efficaces dans la définition des priorités\nVous êtes ouvert au feedback, et avez une capacité à vous surpasser\n\nAvantages\n✨ Poste en full-remote et/ou format hybride, avec des locaux sur Paris (WeWork Marais & Avenue de France)\n🥳 Une équipe soudée et experte qui vous aidera à vous épanouir, vous challenger et vous faire monter en compétences\n🎊 2 off-sites et team building / an\n💻 Nouveau Macbook avec puce Apple M3/M4\n❤️ Mutuelle Alan, Carte WeWork et Ticket Restaurant Swile\n💰 500€ ou 10% par signature client, sans plafond de prime\n🎉 Un environnement pour t'épanouir, construire ta carrière et te permettre de te développer\nDéroulement des entretiens 👇\n\nScreening initial avec Pablo\nUn cas pratique pour tester vos connaissances et évaluer votre besoin de formation / montée en compétences\nÉchange \"Technique\" avec Matteo, pour débrifier sur le cas pratique, identifier vos champs de compétences et vos besoins de formation\nEchange \"Vision\" avec Tony (CEO), pour discuter de votre parcours, de votre profil et de vptre ambition à rejoindre Leverage\n(faculatif) Appels de références : Nous vous demanderons 2 références avec des anciens managers et collaborateurs\n\nDurée moyenne de recrutement : 5-10 jours",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 119,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "bold",
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:2"
+        ],
+        "remote_allowed": true,
+        "formatted_location": "France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:2",
+            "localized_name": "Remote",
+            "entity_urn": "urn:li:fs_workplaceType:2"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.OffsiteApply",
+        "details": {
+          "applyStartersPreferenceVoid": false,
+          "companyApplyUrl": "https://join.com/companies/theleverage/14725683-performance-manager-senior-cdi-hybride-h-f?pid=e65242534431eadcb0c9",
+          "inPageOffsiteApply": false
+        },
+        "company_apply": true,
+        "apply_url": "https://join.com/companies/theleverage/14725683-performance-manager-senior-cdi-hybride-h-f?pid=e65242534431eadcb0c9",
+        "unify_enabled": false
+      },
+      "dates": {
+        "listed_at": 1755792084000,
+        "listed_at_formatted": "21/08/2025 18:01"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:07.716926"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4286794489",
+      "repostedJob": false,
+      "title": "Search Engine Optimization Team Lead",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "777979841",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM_OFFLINE",
+      "entityUrn": "urn:li:fsd_jobPosting:4286794489"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Search Engine Optimization Team Lead",
+        "job_id": 4286794489,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4286794489",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4286794489",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Six Values",
+        "entityUrn": "urn:li:fs_normalized_company:105550090",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFxr2Ajck-WNQ/company-logo_200_200/company-logo_200_200/0/1736174915982/sixvalues_logo?e=1758758400&v=beta&t=dhFMO9-FgjMBp5TEwT-nyXI-WBSNXuOizy51UKqhtqA"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFxr2Ajck-WNQ/company-logo_100_100/company-logo_100_100/0/1736174915982/sixvalues_logo?e=1758758400&v=beta&t=5ZPktTWsow9jOMwyNa3aLrwL8Am9Ho7iaCJQryya-Hw"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFxr2Ajck-WNQ/company-logo_400_400/company-logo_400_400/0/1736174915983/sixvalues_logo?e=1758758400&v=beta&t=uMB4MQcHsZiUx_aPtGI81rNHju-mFQQ9HW-v-9WFWA0"
+          }
+        ]
+      },
+      "description": {
+        "text": "At Six Values, we are more than just a B2B betting and gaming technology company — we are creators of experiences that change people’s moods for the better.We work with a range of global client brands - are we are in “scale up” mode, hiring the best and most highly motivated, fast working, bureaucracy hating, “I want to win but I’m not afraid to fail…”, team players. We provide B2B support services to multiple technology and gaming partners, we believe in the free market, and want to hear from the best of the best.\nROLE SUMMARY:The SEO Team Lead will be responsible for owning and executing the organic search strategy across multiple B2C online casino brands. Reporting directly to the Head of SEO, this individual will manage a team of SEO specialists, collaborate cross-functionally with content, product, design, and development teams, and ensure all websites achieve strong organic visibility, traffic growth, and sustainable rankings in highly competitive iGaming markets.\nThe ideal candidate is both strategic and hands-on — with deep knowledge of technical SEO, on page SEO, off page SEO and SERP performance optimization across multilingual and multi-regional casino domains.\nKEY RESPONSIBILITIES:Strategy & ExecutionExecute SEO strategies tailored to individual casino brands across target geosOversee keyword research, competitor analysis, and content gap identificationCreate and drive content strategies for acquisition, retention, and long-tail traffic growthOwn the on-page, off-page, and technical SEO roadmaTechnical SEOManage site audits and technical health monitoring (crawlability, indexation, Core Web Vitals,etc.)Work closely with the Tech Team on site migrations, page speed, mobile-first indexing, structured data, etc.Oversee technical SEO implementation across CMSs and custom platformsTeam & Stakeholder ManagementLead and mentor a team of SEO executives/specialistsCollaborate with content, design, dev, CRM, and paid media teams for integrated campaignsProvide regular performance reporting to senior leadership with clear insights and actionsPerformance MonitoringMonitor rankings, traffic, crawl stats, and SERP features using tools like GSC, GA4, Ahrefs, and SEMrushTrack and analyze KPIs: organic sessions, conversions, rankings, link growth, and content performanceEnsure ongoing SEO compliance with regulatory and jurisdictional requirementsSEO for iGamingImplement SEO best practices with consideration for responsible gaming and regulatory requirementsMonitor for algorithm updates, penalties, and prepare defensive/offensive strategies accordingly\nSKILLS & EXPERIENCE:Must-Have Skills:Proven experience in SEO leadership roles within iGaming, online casino, sportsbook, or related nichesDeep understanding of technical SEO (JavaScript SEO, schema, CWV, crawl budgets)Strong content strategy knowledge (keyword clustering, topical authority, SERP intent optimization)Hands-on experience with tools: Google Search Console, GA4, Ahrefs, SEMrush, Screaming Frog, Sitebulb, Looker/Data StudioLeadership & Communication2–5 years of experience managing SEO teams and/or cross-functional projectsStrong project management skills and ability to prioritize tasks across brands and marketsExcellent communication skills to work with devs, SEOs, native writers, and other executives.Industry & Market KnowledgeDeep familiarity with SEO in regulated markets (UKGC, MGA, Curacao, etc.)Experience managing multilingual and geo-targeted sites (hreflang, geo-IP,ccTLDs/subfolders)Understanding of affiliate SEO, bonus strategy content, and SERP monetization methodsBonus SkillsFamiliarity with server-side rendering (SSR), headless CMS environments, or CDNsKnowledge of AI tools for content and SEO productivityData literacy – ability to analyze large datasets and extract actionable insights\nOTHER:You are detail focused but able to see the “big picture”, you can remove barriers, and move forward at pace.Encourages communication and collaboration across the business, team and stakeholders in order to build strong relationships and develop cross functional working. A trusted advisor who always delivers on promises.Work independently, take appropriate responsibility for actions and make sensible decisions.Be self motivated as you will encounter many challenges and opportunities.\nWHY JOIN US:Be part of a fast-growing, innovative company with a clear vision and mission.Work in a dynamic, collaborative environment that values speed, clarity, and decisiveness.Take ownership of a critical role with the opportunity to make a significant impact on the business.Join a team of highly motivated, talented professionals who are passionate about delivering exceptional experiences.\nAbout sixvaluesOur vision is to elevate the mood of people everywhere, making every interaction more engaging, rewarding, and memorable. Through cutting-edge technology and a real commitment to excellence, we aim to revolutionize how people connect with digital experiences, transforming the world of betting and gaming technology.Our mission is simple yet ambitious: to be a fast-moving, highly efficient tech company that brings joy and excitement to players by delivering top-tier solutions for operators. From website and application development to data analytics and payment systems, everything we do is designed to create seamless, thrilling experiences for our partners and their customers.",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 101,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Italic",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "italic",
+            "paragraph",
+            "lineBreak",
+            "bold",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:2"
+        ],
+        "remote_allowed": true,
+        "formatted_location": "EMEA",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:2",
+            "localized_name": "Remote",
+            "entity_urn": "urn:li:fs_workplaceType:2"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.OffsiteApply",
+        "details": {
+          "applyStartersPreferenceVoid": true,
+          "companyApplyUrl": "https://careers.sixvalues.com/jobs/5275836-seo-team-lead",
+          "inPageOffsiteApply": false
+        },
+        "company_apply": true,
+        "apply_url": "https://careers.sixvalues.com/jobs/5275836-seo-team-lead",
+        "unify_enabled": false
+      },
+      "dates": {
+        "listed_at": 1755851212000,
+        "listed_at_formatted": "22/08/2025 10:26"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:11.969749"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4286747340",
+      "repostedJob": false,
+      "title": "Ecommerce Specialist",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "106315287",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM_OFFLINE",
+      "entityUrn": "urn:li:fsd_jobPosting:4286747340"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Ecommerce Specialist",
+        "job_id": 4286747340,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4286747340",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4286747340",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Confidential Careers",
+        "entityUrn": "urn:li:fs_normalized_company:33242739",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHAlnvLlr8B8A/company-logo_200_200/company-logo_200_200/0/1734179952791/goconfidentia_logo?e=1758758400&v=beta&t=QdOSkTj4so8Ks1p2RA8DXQuPQbMiTgxc7VwVlPXFAQ0"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHAlnvLlr8B8A/company-logo_100_100/company-logo_100_100/0/1734179952791/goconfidentia_logo?e=1758758400&v=beta&t=VMOwlpD74BH-o_-VyjDulRy2h4Cg-SEzR6jEpGv_Gdc"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHAlnvLlr8B8A/company-logo_400_400/company-logo_400_400/0/1734179952791/goconfidentia_logo?e=1758758400&v=beta&t=kVD7dqvgD9ffo4UXAS0Uud55-qIy8o4p3NX9gFs1nJE"
+          }
+        ]
+      },
+      "description": {
+        "text": "We are looking for an experienced and results-driven E-commerce Executive to join our team in Riyadh, Saudi Arabia (Remote). The ideal candidate will be responsible for managing and optimizing our online sales channels, including our website, third-party marketplaces, and digital marketing campaigns. This role requires a deep understanding of ecommerce platforms, consumer behavior, and digital marketing strategies to drive traffic, increase conversions, and maximize revenue.\nAs an E-commerce Specialist, you will be responsible for the following activities:Manage and optimize ecommerce platforms and online storefrontsDevelop and execute digital marketing strategies to drive traffic and salesMonitor and analyze website performance and user behaviorEnsure accurate product listings, pricing, and inventory managementCollaborate with marketing and product teams on promotions and campaignsConduct A/B testing and implement conversion rate optimization strategiesTrack and report on key performance indicators (KPIs)Stay updated on ecommerce trends and best practicesCoordinate with customer service to improve user experienceManage third-party marketplace accounts (e.g., Amazon, Noon)\nRequirements will be:Bachelor’s degree in Marketing, Business, or related field3+ years of experience in ecommerce & digital marketingProficiency with ecommerce platforms like Amazon, Noon, or similarStrong analytical and problem-solving skillsExperience with SEO, SEM, and email marketingFamiliarity with Google Analytics and other reporting toolsExcellent written and verbal communication skillsAbility to manage multiple projects and meet deadlinesDetail-oriented with a focus on accuracyKnowledge of HTML/CSS is a plus",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 30,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:2"
+        ],
+        "remote_allowed": true,
+        "formatted_location": "EMEA",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:2",
+            "localized_name": "Remote",
+            "entity_urn": "urn:li:fs_workplaceType:2"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.SimpleOnsiteApply",
+        "details": {
+          "type": "CONTACT_INFORMATION",
+          "unifyApplyEnabled": true
+        },
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755809030000,
+        "listed_at_formatted": "21/08/2025 22:43"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:17.214228"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4289239581",
+      "repostedJob": false,
+      "title": "Responsable Acquisition Digitale",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "1095519935",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM",
+      "entityUrn": "urn:li:fsd_jobPosting:4289239581"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Responsable Acquisition Digitale",
+        "job_id": 4289239581,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4289239581",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4289239581",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Formations Football",
+        "entityUrn": "urn:li:fs_normalized_company:80329418",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHo14oLd98D3Q/company-logo_200_200/company-logo_200_200/0/1634132470192?e=1758758400&v=beta&t=YAJyzG5vKd0xfCexIG_aIyWpjzVSnKZzizwmCzHZzTE"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHo14oLd98D3Q/company-logo_100_100/company-logo_100_100/0/1634132470192?e=1758758400&v=beta&t=11w9qXduF5OEw0YmkrJOGFJElD55zXwU8GRO5slkQkA"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHo14oLd98D3Q/company-logo_400_400/company-logo_400_400/0/1634132470192?e=1758758400&v=beta&t=XJZeoBthpPnm-YMQeTi30YS3zgiwoZvtsa2xE25FxTo"
+          }
+        ]
+      },
+      "description": {
+        "text": "À propos\nFormations Football est la plateforme de référence 100 % en ligne dédiée à la formation aux métiers du football. Depuis plus de dix ans, nous rendons l’expertise du jeu accessible à tous : éducateurs, entraîneurs, agents de joueurs, intermédiaires ou passionnés, avec ou sans bagage technique.\nNotre mission est claire : accompagner chaque apprenant dans sa progression grâce à des contenus structurés, pratiques et adaptés aux réalités du terrain.\nAujourd’hui, nous formons des clients aux quatre coins du monde, avec une forte présence en francophonie et en Amérique du Nord.\nNos bureaux sont à Paris (75016) et Miami Beach (Floride).\nMission principale : \nRattaché au co-fondateur, vous prendrez en charge la gestion de l'ensemble du budget d'acquisition payante de Formations Football. \nVous serez responsable de définir, piloter et optimiser la stratégie d’acquisition de trafic, en mettant en place des actions innovantes et performantes pour soutenir la croissance et renforcer la visibilité de Formations Football et son écosystème.\nVos responsabilités :\nPiloter les leviers : SEA, Social Ads, Display, Affiliation, Retargeting, Influence, Native Ads, etc.Concevoir, mettre en place et optimiser les landing pages et les tunnels d’onboarding pour maximiser la conversionAssurer la cohérence du discours de marque et le respect de la charte graphiqueConcevoir et actualiser des tableaux de bord d’activité\nProfil recherché\nNous recherchons une personne passionnée par le football, le sport, l'éducation, l'impact et les nouvelles technologie :\nExpérience confirmée en acquisition : vous justifiez de 3 à 5 années d’expérience en acquisition web, avec la gestion d’un budget annuel d’au moins 6 chiffres. Cela dit, chacun évolue à son rythme : nous recrutons avant tout sur vos compétences, votre expérience et l’impact que vous pouvez avoir chez Formations FootballExpert des modèles d’abonnement : vous avez déjà su maîtriser avec succès l’équilibre du CAC et du payback sur au moins un produit freemium-to-paidInnovant et pragmatique : vous n’avez pas peur de créer des prototypes et de tirer parti de l’IA pour améliorer votre productivitéData-driven : à l’aise avec SQL, Looker, Amplitude (ou équivalents), vous concevez des A/B tests, refusez de vous limiter à un seul modèle d’attribution et mettez en perspective vos résultats avant d’agirRapide & Transparent : vous croyez que la vitesse fait la différence et que le feedback nourrit de meilleures décisions ; la franchise radicale est votre mode par défautEsprit d’ownership : quand le ROAS baisse, vous diagnostiquez, réallouez et corrigez — sans attendre d’autorisationBilingue français / anglais : vous évoluerez dans un environnement international où la moitié de notre budget d’acquisition est investi hors de France\nCe que nous offrons\nUn environnement de travail dynamique favorisant l’évolution professionnelle.L’opportunité de participer à l’évolution de l’éducation et de la formation dans le football.L’intégration au sein d’une équipe jeune et passionnée (+10 personnes).\nProcessus de recrutement\nEntretien avec le co-fondateur de préqualificationEtude de cas, suivi d’une session de revue avec l’équipeEntretien culture fit et rencontre avec l’équipePrise de références & offre\nInformations pratiques\nLieu : Paris (75016). Télétravail 1jr/semaineContrat : CDI",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 89,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "bold",
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:1"
+        ],
+        "remote_allowed": false,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:1",
+            "localized_name": "On-site",
+            "entity_urn": "urn:li:fs_workplaceType:1"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.SimpleOnsiteApply",
+        "details": {
+          "type": "CONTACT_INFORMATION",
+          "unifyApplyEnabled": true
+        },
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755771539000,
+        "listed_at_formatted": "21/08/2025 12:18"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:20.446889"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4289759326",
+      "repostedJob": false,
+      "title": "Growth Analytics & Conversion Manager (CRO) H/F",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": null,
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_CREATE",
+      "entityUrn": "urn:li:fsd_jobPosting:4289759326"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Growth Analytics & Conversion Manager (CRO) H/F",
+        "job_id": 4289759326,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4289759326",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4289759326",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Linxea",
+        "entityUrn": "urn:li:fs_normalized_company:5356991",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQ_O7IeldiNg/company-logo_200_200/B4EZYPqAi_GYAQ-/0/1744019393059/linxea_logo?e=1758758400&v=beta&t=5gY6MH1XFZwi4ZsOGA1esW2CJe58vMS7kEshioAO1Ws"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQ_O7IeldiNg/company-logo_400_400/B4EZYPqAi_GYAg-/0/1744019393059/linxea_logo?e=1758758400&v=beta&t=GPEHOA05aiUA9xRuyVcf2TlLyI8XU7lnpuxQXZPY4fo"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQ_O7IeldiNg/company-logo_100_100/B4EZYPqAi_GYAY-/0/1744019393059/linxea_logo?e=1758758400&v=beta&t=uKIz12-4bUo20tFKlS8q8w5Q4yXrCl07cDexB1GsN1w"
+          }
+        ]
+      },
+      "description": {
+        "text": "Au sein de l’équipe Marketing, rattaché(e) à notre Head of Growth, ton rôle sera de piloter et d’optimiser les performances du site Linxea en t’appuyant sur l’analyse de données et la mise en place d’A/B tests, afin d’améliorer à la fois les taux de conversion et l’expérience utilisateur.\n\nConcrètement, Tes Missions Seront Les Suivantes\n\nOptimisation du taux de conversion et A/B tests :Définir et piloter la stratégie d’optimisation du taux de conversion. Analyser les comportements de visiteurs afin d’identifier les axes d’optimisations, points de frictions et opportunités et les traduire recommandations opérationnelles. Concevoir, déployer évaluer la performances des A/B tests menés. Personnaliser les parcours utilisateurs selon les objectifs de conversion et personae. Concevoir et optimiser les landing pages, pages et éléments clés du site en collaboration avec notre UX designer puis déployer ces améliorations directement dans notre CMS. Tracking & Analytics :Mettre en place, optimiser et déployer les plans de marquage. Implémenter, tester et maintenir le bon fonctionnement des tags via Google Tag Manager. Créer des rapports, des tableaux de bord et des visualisations à partir des données Google Analytics 4 pour soutenir la prise de décision stratégique. Suivi des performances du site :Définir et suivre des indicateurs clés (First Contentful Paint, taux d’erreurs, disponibilité) pour mesurer la performance globale et ajuster continuellement les seuils d’alerte. Corriger les anomalies et déployer les optimisations sur le site via le CMS. Transmettre les bugs et demandes d’évolutions à l’équipe IT ou prestataire de maintenance, s’assurer de leur correction et prioriser les interventions selon leur impact business / potentiel de conversion. \n\nPourquoi nous rejoindre ?\n\nUne marque solide, en pleine évolution Un mission du quotidien et qui fait sens : aider les Français à mieux épargner Une équipe agile et ambitieuse De vrais défis stratégiques et créatifs sur un marché en pleine croissance Une vraie liberté d’action pour démocratiser le marché de l’épargne ! Tu as au minimum 3 ans d’expérience en optimisation du taux de conversion (CRO) ou web analytics, idéalement au sein d’une scale‑up B2B/B2C ou en agence spécialisée. Tu as une expertise avancée sur Google Analytics 4 et Google Tag Manager. Tu maîtrises des plateformes d’AB Testing (exemple : AB Tasty) et des outils d’UX analytics (Microsoft Clarity, Contentsquare). Tu as la capacité à concevoir et automatiser des tableaux de bord (Looker Studio, Power BI, Excel, etc.). Tu as un esprit analytique : tu sais formuler des recommandations basées sur les données et interpréter le comportement utilisateur. Tu as une expérience pratique dans la mise en place, le suivi et l’évaluation des A/B tests. Tu es rigoureux(se) et méthodologique dans la mise en place des tests et le suivi des résultats. Tu as un goût pour l’itération rapide et l’amélioration continue. Tu as une bonne culture UX : tu es capable de produire des wireframes illustrant les modifications ou nouveaux éléments à tester à destination des équipes UX/UI avec lesquelles tu travailleras en étroite collaboration. Tu as la capacité à travailler avec des équipes pluridisciplinaires (acquisition, design, tech, produit, offre…etc). Un premier call avec Joëlle notre RRH (15/20 min). Un entretien visio avec Charline, notre Head of Growth Une étude de cas avec restitution en visio Un entretien dans nos locaux avec Joëlle (RRH) puis avec Charline (Head of Growth) & Stanislas (DG) avant on l’espère une proposition !",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 46,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "lineBreak",
+            "bold",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:3"
+        ],
+        "remote_allowed": false,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:3",
+            "localized_name": "Hybrid",
+            "entity_urn": "urn:li:fs_workplaceType:3"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.OffsiteApply",
+        "details": {
+          "applyStartersPreferenceVoid": false,
+          "companyApplyUrl": "https://easyapply.jobs/r/WwVVD3W24NjJnW4tVvlC",
+          "inPageOffsiteApply": false
+        },
+        "company_apply": true,
+        "apply_url": "https://easyapply.jobs/r/WwVVD3W24NjJnW4tVvlC",
+        "unify_enabled": false
+      },
+      "dates": {
+        "listed_at": 1755846195000,
+        "listed_at_formatted": "22/08/2025 09:03"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:22.723007"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4286779629",
+      "repostedJob": false,
+      "title": "Founding GTM Engineer / Growth Hacker (Equity-only)",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "50712120",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM",
+      "entityUrn": "urn:li:fsd_jobPosting:4286779629"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Founding GTM Engineer / Growth Hacker (Equity-only)",
+        "job_id": 4286779629,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4286779629",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4286779629",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Capstacker",
+        "entityUrn": "urn:li:fs_normalized_company:108256610",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGpz3dCbXuqkA/company-logo_200_200/B4DZhB4J07HwBY-/0/1753451896785/capstacker_logo?e=1758758400&v=beta&t=5ZKc4nx5B9QaFfUvJgO_QBF1XKIgigQJeRSQM52i14M"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGpz3dCbXuqkA/company-logo_100_100/B4DZhB4J07HwBg-/0/1753451896785/capstacker_logo?e=1758758400&v=beta&t=JpcH9DF-xGqgFxSZbwqd2ED7Vqe9KMjfvkcywkHN6GY"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGpz3dCbXuqkA/company-logo_400_400/B4DZhB4J07HwBo-/0/1753451896785/capstacker_logo?e=1758758400&v=beta&t=rVBmrYF0qVTJ7LckdRhc1bsEj6CD5Zh4FqRSxfIaatE"
+          }
+        ]
+      },
+      "description": {
+        "text": "Founding GTM Engineer / Growth HackerCapstacker | Remote (CET ±2) | Equity-only | Future Head of Growth\nAbout CapstackerMost early-stage startups fail because they can’t afford the talent they need. Capstacker makes service-for-equity deals scalable—connecting startups with top-tier operators (growth, tech, legal, finance) without the cash burn.\nIncubated by Startup Wise Guys, we’re building the rails for equity-for-effort partnerships worldwide.\nThe RoleWe’re looking for a Founding GTM Engineer / Growth Hacker to build the systems that attract both sides of our platform: promising startups and elite operators.This role is not about paid ads. You’ll drive growth through:Community engagement (Slack groups, LinkedIn, forums)Cold outreach (email, DMs, intros)Scalable systems (scraping, automations, onboarding flows)Messaging, positioning, and early demand gen loopsYou’ll build lead-gen machines, not launch PPC campaigns.\nYou’ll thrive here if:You’ve done early-stage growth at a startupYou’ve built technical or automated acquisition systemsYou know how to earn attention and trust in founder and operator communitiesYou’re looking for ownership, not just a salaryYou’re based in CET ±2\nCompensationEquity-only to startPath to full-time + leadershipBonus points if you mention “grapefruit” in your intro",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 45,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.ListItem",
+            "com.linkedin.pemberly.text.List"
+          ],
+          "structure_elements": [
+            "bold",
+            "paragraph",
+            "lineBreak",
+            "listItem",
+            "list"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:2"
+        ],
+        "remote_allowed": true,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:2",
+            "localized_name": "Remote",
+            "entity_urn": "urn:li:fs_workplaceType:2"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.ComplexOnsiteApply",
+        "details": {
+          "unifyApplyEnabled": true,
+          "easyApplyUrl": "https://www.linkedin.com/job-apply/4286779629"
+        },
+        "easy_apply": true,
+        "apply_url": "https://www.linkedin.com/job-apply/4286779629",
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755842946000,
+        "listed_at_formatted": "22/08/2025 08:09"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:26.936696"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4289017043",
+      "repostedJob": false,
+      "title": "Optimization Specialist",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "644339546",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM_OFFLINE",
+      "entityUrn": "urn:li:fsd_jobPosting:4289017043"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Optimization Specialist",
+        "job_id": 4289017043,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4289017043",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4289017043",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "YunoJuno",
+        "entityUrn": "urn:li:fs_normalized_company:2667237",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKCW9bCEWH2A/company-logo_100_100/B4EZfKx7RTHgAQ-/0/1751453775300/yunojuno_logo?e=1758758400&v=beta&t=S8kt8Cwq-LFikwXE_a34bhDfyOEow0ey4B_y_uE2YPI"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKCW9bCEWH2A/company-logo_400_400/B4EZfKx7RTHgAY-/0/1751453775300/yunojuno_logo?e=1758758400&v=beta&t=LVwn6t5U0MTdbVTFpc02VyxvGCCUa2-28GA93gyHZR0"
+          },
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKCW9bCEWH2A/company-logo_200_200/B4EZfKx7RTHgAI-/0/1751453775300/yunojuno_logo?e=1758758400&v=beta&t=HYxq_tx8KzVN5Yb43d6OuXfv50WfY_PyhM7afTF8qyc"
+          }
+        ]
+      },
+      "description": {
+        "text": "Optimisation Manager for Holiday Projects (Freelance Contract)\nAbout the role:The Optimisation Manager will play a pivotal role in supporting the growth of Conversion Rate Optimisation (CRO) activities. This position is centred around driving the experiment programme focusing on generating incremental revenue and enhancing margin growth. The individual will work across the website and app, collaborating with teams to implement hypotheses and evaluate their effectiveness, as well as leveraging personal initiative to maximise product build efficiencies. We do a lot of AB testing and have had a contractor in to plan and build the tests. This will focus more on the analytics side of things.\nKey responsibilities:• Support holiday sales by collaborating with Learning and Development, Search, and Checkout squads.• Ideate, plan, build, and analyse site optimisation experiments to improve user experience and increase conversions.• Manage the execution and assessment of A/B testing initiatives to validate hypotheses.• Develop insights from data analysis to influence future optimisation strategies.\nRole requirements:• Proven experience in creating and executing experiments using A/B testing tools.• Proficient in web behaviour and experiment analysis with web analytics tools, particularly Amplitude.• Strong analytical skills and ability to interpret complex data sets to drive decision-making.• Excellent communication skills to articulate findings and collaborate with cross-functional teams.\nStart date: ASAPDuration: 12 month freelance contractRate: £350 p/dayLocation: Europe (BST +/- up to 2 hours)",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 33,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Paragraph",
+            "com.linkedin.pemberly.text.LineBreak"
+          ],
+          "structure_elements": [
+            "bold",
+            "paragraph",
+            "lineBreak"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:2"
+        ],
+        "remote_allowed": true,
+        "formatted_location": "European Union",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:2",
+            "localized_name": "Remote",
+            "entity_urn": "urn:li:fs_workplaceType:2"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.ComplexOnsiteApply",
+        "details": {
+          "unifyApplyEnabled": true,
+          "easyApplyUrl": "https://www.linkedin.com/job-apply/4289017043"
+        },
+        "easy_apply": true,
+        "apply_url": "https://www.linkedin.com/job-apply/4289017043",
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755784964000,
+        "listed_at_formatted": "21/08/2025 16:02"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:29.191354"
+  },
+  {
+    "search_result_data": {
+      "trackingUrn": "urn:li:jobPosting:4287100419",
+      "repostedJob": false,
+      "title": "Spontaneous Application",
+      "$recipeTypes": [
+        "com.linkedin.deco.recipe.anonymous.Anon1578943416"
+      ],
+      "posterId": "158249367",
+      "$type": "com.linkedin.voyager.dash.jobs.JobPosting",
+      "contentSource": "JOBS_PREMIUM_OFFLINE",
+      "entityUrn": "urn:li:fsd_jobPosting:4287100419"
+    },
+    "detailed_data": {
+      "basic_info": {
+        "title": "Spontaneous Application",
+        "job_id": 4287100419,
+        "entity_urn": "urn:li:fs_normalized_jobPosting:4287100419",
+        "dash_entity_urn": "urn:li:fsd_jobPosting:4287100419",
+        "job_state": "LISTED",
+        "talent_hub_job": false,
+        "recipe_type": "com.linkedin.voyager.deco.jobs.web.shared.WebLightJobPosting"
+      },
+      "company": {
+        "name": "Scaleway",
+        "entityUrn": "urn:li:fs_normalized_company:9427185",
+        "universalName": "N/A",
+        "url": "N/A",
+        "logo_urls": [
+          {
+            "size": "200x200",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFdznH8JPqzIg/company-logo_200_200/company-logo_200_200/0/1700211902246/scaleway_logo?e=1758758400&v=beta&t=HEmGO4CMg4-1kyyJYc9NzlKsp2GN5Rl5XzYE89OGRy8"
+          },
+          {
+            "size": "100x100",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFdznH8JPqzIg/company-logo_100_100/company-logo_100_100/0/1700211902246/scaleway_logo?e=1758758400&v=beta&t=C5N7p3fWi7Q21r_zKDdo3wAxThJ-dQt3QhXdrU7uBzU"
+          },
+          {
+            "size": "400x400",
+            "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFdznH8JPqzIg/company-logo_400_400/company-logo_400_400/0/1700211902246/scaleway_logo?e=1758758400&v=beta&t=IdZ5NA6Bc6Js26-NaS729HFgUWqU-GuUcdLM9itVYss"
+          }
+        ]
+      },
+      "description": {
+        "text": "OUR STORY:\n\n🇪🇺 Join Scaleway and shape the sovereign cloud of tomorrow !\n\nSince 1999, we have been designing secure, sustainable infrastructures aimed at supporting the most ambitious companies.\n\nHistorically known for our dedicated servers (Dedibox), we made a strategic shift to cloud computing in 2015. Staying true to our principles of simplicity, flexibility, and technical excellence, we have become one of the leading players in Europe in the sector.\n\nWith the rise of artificial intelligence, we have strengthened our commitment, supported by the Iliad Group, which is investing €3 billion to develop a serious, sovereign AI alternative to American and Asian giants.\n\nEvery day, thanks to our rich catalog of products and services (bare metal, containerization, serverless, AI, etc.), Scaleway proudly serves 38,000 private and public sector clients, from Photoroom to Mistral AI, Golem AI, and ADEME.\n\n📍 Our offices are located in Paris, Lille, Toulouse, Bordeaux, Rouen, Rennes and Lyon.\n\nAt Scaleway, we are committed to building an inclusive and respectful workplace where everyone has a fair opportunity to thrive.\n\nAll applications are considered with care, regardless of age, gender, sexual orientation, ethnic or social background, religion, disability, or any other characteristic.\n\nWe believe great ideas come from everywhere, and everyone which is why you should definitely apply.",
+        "formatted_info": "Description avec formatage LinkedIn",
+        "formatting_details": {
+          "total_attributes": 23,
+          "formatting_types": [
+            "com.linkedin.pemberly.text.LineBreak",
+            "com.linkedin.pemberly.text.Bold",
+            "com.linkedin.pemberly.text.Italic"
+          ],
+          "structure_elements": [
+            "lineBreak",
+            "bold",
+            "italic"
+          ]
+        }
+      },
+      "workplace": {
+        "types": [
+          "urn:li:fs_workplaceType:3"
+        ],
+        "remote_allowed": false,
+        "formatted_location": "Paris, Île-de-France, France",
+        "detailed_types": [
+          {
+            "urn": "urn:li:fs_workplaceType:3",
+            "localized_name": "Hybrid",
+            "entity_urn": "urn:li:fs_workplaceType:3"
+          }
+        ]
+      },
+      "apply_method": {
+        "type": "com.linkedin.voyager.jobs.ComplexOnsiteApply",
+        "details": {
+          "unifyApplyEnabled": true,
+          "easyApplyUrl": "https://www.linkedin.com/job-apply/4287100419",
+          "companyApplyUrl": "https://jobs.lever.co/scaleway/b7bc18a8-81ed-475f-94d4-6c9fb0e29d96/apply?lever-source=LinkedIn&source=LinkedIn&lever-source=LinkedInJobs&lever-source=LinkedInJobs"
+        },
+        "easy_apply": true,
+        "apply_url": "https://www.linkedin.com/job-apply/4287100419",
+        "unify_enabled": true
+      },
+      "dates": {
+        "listed_at": 1755855727000,
+        "listed_at_formatted": "22/08/2025 11:42"
+      }
+    },
+    "extraction_timestamp": "2025-08-22T12:30:34.390137"
+  }
+]

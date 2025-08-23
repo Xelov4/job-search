@@ -8,8 +8,8 @@ import os
 import json
 from datetime import datetime
 
-# Charger les variables d'environnement
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 def format_timestamp(timestamp):
     """Convertit un timestamp en date lisible"""
@@ -198,9 +198,9 @@ def search_seo_jobs_paris():
             
             print("-" * 70)
         
-        # Sauvegarder les résultats
+        # Sauvegarder les résultats dans data/temp/
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"seo_jobs_paris_{timestamp}.json"
+        filename = f"../../data/temp/seo_jobs_paris_{timestamp}.json"
         
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(search_results, f, indent=2, ensure_ascii=False)

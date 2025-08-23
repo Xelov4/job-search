@@ -8,8 +8,8 @@ import os
 import json
 import pprint
 
-# Charger les variables d'environnement
-load_dotenv()
+# Charger les variables d'environnement depuis config/
+load_dotenv('../../config/.env')
 
 def print_nested_structure(data, prefix="", max_depth=10, current_depth=0):
     """Affiche la structure imbriquée de manière récursive"""
@@ -84,7 +84,7 @@ def explore_linkedin_data():
                         
                         # Sauvegarder un exemple complet
                         if i == 1:  # Premier emploi seulement
-                            filename = f"complete_job_data_example_{job_id}.json"
+                            filename = f"../../data/samples/complete_job_data_example_{job_id}.json"
                             with open(filename, 'w', encoding='utf-8') as f:
                                 json.dump({
                                     'basic_data': job,
