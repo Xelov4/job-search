@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Analyse complète de pertinence SEO avec extraction des descriptions complètes
+Recherche et analyse de 100 emplois "SEO Specialist" avec scoring avancé
 """
 import sys
 sys.path.insert(0, 'src')
@@ -15,20 +15,8 @@ import re
 
 load_dotenv('config/.env')
 
-def extract_job_details(linkedin, job):
-    """Extrait les détails complets d'un emploi via l'API LinkedIn"""
-    try:
-        if 'entityUrn' in job:
-            job_id = job['entityUrn'].split(':')[-1]
-            job_details = linkedin.get_job(job_id)
-            return job_details
-        return None
-    except Exception as e:
-        print(f"   ⚠️ Erreur extraction détails: {e}")
-        return None
-
-def analyze_seo_relevance(title, description, company_name=None):
-    """Analyse la pertinence SEO d'un emploi avec scoring avancé"""
+def analyze_seo_specialist_relevance(title, description, company_name=None):
+    """Analyse la pertinence SEO Specialist avec scoring avancé"""
     
     # Normalisation des textes
     title_lower = title.lower() if title else ""
@@ -90,7 +78,7 @@ def analyze_seo_relevance(title, description, company_name=None):
             total_score += seo_negative_score
             matches.append(f"Négatif: {keyword} ({seo_negative_score})")
     
-    # Bonus pour la longueur de la description (plus de détails = plus de contexte)
+    # Bonus pour la longueur de la description
     if description:
         desc_length = len(description)
         if desc_length > 1000:
@@ -100,44 +88,47 @@ def analyze_seo_relevance(title, description, company_name=None):
             total_score += 1
             matches.append(f"Description moyenne (+1)")
     
-    # Catégorisation de pertinence
+    # Déterminer la classe de pertinence
     if total_score >= 15:
-        relevance = "TRÈS PERTINENT"
         relevance_class = "A"
+        relevance = "TRÈS PERTINENT"
     elif total_score >= 8:
-        relevance = "PERTINENT"
         relevance_class = "B"
+        relevance = "PERTINENT"
     elif total_score >= 3:
-        relevance = "MODÉRÉMENT PERTINENT"
         relevance_class = "C"
+        relevance = "MODÉRÉMENT PERTINENT"
     elif total_score >= 0:
-        relevance = "PEU PERTINENT"
         relevance_class = "D"
+        relevance = "PEU PERTINENT"
     else:
-        relevance = "NON PERTINENT"
         relevance_class = "E"
+        relevance = "NON PERTINENT"
     
     return {
         'score': total_score,
         'relevance': relevance,
         'relevance_class': relevance_class,
-        'matches': matches,
-        'title_analysis': {
-            'has_seo_primary': any(kw in title_lower for kw in seo_primary),
-            'has_seo_secondary': any(kw in title_lower for kw in seo_secondary),
-            'has_negative': any(kw in title_lower for kw in seo_negative)
-        },
-        'description_analysis': {
-            'length': len(description) if description else 0,
-            'seo_primary_count': sum(desc_lower.count(kw) for kw in seo_primary) if description else 0,
-            'seo_secondary_count': sum(desc_lower.count(kw) for kw in seo_secondary) if description else 0,
-            'seo_related_count': sum(desc_lower.count(kw) for kw in seo_related) if description else 0
-        }
+        'matches': matches
     }
 
-def search_and_analyze_seo_complete():
-    """Recherche SEO complète avec analyse de pertinence approfondie"""
+def extract_job_details(linkedin, job):
+    """Extrait les détails complets d'un emploi via l'API LinkedIn"""
+    try:
+        if 'entityUrn' in job:
+            job_id = job['entityUrn'].split(':')[-1]
+            job_details = linkedin.get_job(job_id)
+            return job_details
+        return None
+    except Exception as e:
+        print(f"   ⚠️ Erreur extraction détails: {e}")
+        return None
+
+def search_and_analyze_seo_specialist_100():
+    """Recherche et analyse 100 emplois SEO Specialist"""
     
+    # Connexion LinkedIn
+    print("🔐 Connexion à LinkedIn...")
     linkedin = Linkedin(
         os.getenv("LINKEDIN_EMAIL"), 
         os.getenv("LINKEDIN_PASSWORD"), 
@@ -198,7 +189,7 @@ def search_and_analyze_seo_complete():
                                     break
                 
                 # Analyse de pertinence complète
-                relevance_analysis = analyze_seo_relevance(
+                relevance_analysis = analyze_seo_specialist_relevance(
                     job.get('title', ''),
                     description,
                     company_name
@@ -217,11 +208,11 @@ def search_and_analyze_seo_complete():
                 print(f"      ✅ Détails extraits - Score: {relevance_analysis['score']} - {relevance_analysis['relevance']}")
                 
                 # Pause pour éviter le rate limiting
-                time.sleep(1)
+                time.sleep(2)
             else:
                 print(f"      ⚠️ Pas de détails disponibles")
                 # Ajouter quand même l'emploi de base
-                relevance_analysis = analyze_seo_relevance(job.get('title', ''), "")
+                relevance_analysis = analyze_seo_specialist_relevance(job.get('title', ''), "")
                 job_with_details = {
                     'basic_info': job,
                     'detailed_info': None,
@@ -266,47 +257,91 @@ def search_and_analyze_seo_complete():
             class_jobs = [job for job in jobs_with_details if job['relevance_analysis']['relevance_class'] == class_letter]
             if class_jobs:
                 print(f"\n📋 CLASSE {class_letter} - {len(class_jobs)} emplois:")
-                for i, job in enumerate(class_jobs[:5], 1):  # Top 5 par classe
+                for i, job in enumerate(class_jobs[:10], 1):  # Top 10 par classe
                     title = job['basic_info'].get('title', 'N/A')
                     company = job['company_name']
                     score = job['relevance_analysis']['score']
-                    relevance = job['relevance_analysis']['relevance']
-                    print(f"   {i}. {title} - {company} (Score: {score}, {relevance})")
-                
-                if len(class_jobs) > 5:
-                    print(f"   ... et {len(class_jobs) - 5} autres")
+                    print(f"   {i:2d}. {title} - {company} (Score: {score})")
         
-        # Sauvegarde complète
+        # Phase 4: Export des résultats
+        print(f"\n💾 Phase 4: Export des résultats...")
+        
+        # Créer le dossier d'export s'il n'existe pas
+        os.makedirs('data/exports', exist_ok=True)
+        
+        # Nom du fichier avec timestamp
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"data/exports/analyse_pertinence_complete_{timestamp}.json"
+        filename = f"data/exports/seo_specialist_100_emplois_{timestamp}.json"
         
-        save_data = {
-            'timestamp': datetime.now().isoformat(),
-            'search_params': {
-                'keywords': 'SEO Specialist',
-                'location': 'Paris, Île-de-France, France',
-                'limit': 100
-            },
-            'analysis_summary': {
-                'total_jobs': len(jobs_with_details),
-                'total_score': total_score,
-                'average_score': avg_score,
-                'class_distribution': class_distribution
-            },
-            'jobs_analyzed': jobs_with_details
+        # Sauvegarder les résultats complets
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump({
+                'metadata': {
+                    'search_keywords': 'SEO Specialist',
+                    'location': 'Paris, Île-de-France, France',
+                    'total_jobs': len(jobs_with_details),
+                    'timestamp': timestamp,
+                    'analysis_type': 'SEO Specialist 100 emplois'
+                },
+                'statistics': {
+                    'total_score': total_score,
+                    'average_score': avg_score,
+                    'class_distribution': class_distribution
+                },
+                'jobs': jobs_with_details
+            }, f, ensure_ascii=False, indent=2)
+        
+        print(f"✅ Résultats sauvegardés dans: {filename}")
+        
+        # Générer un rapport markdown
+        report_filename = f"data/exports/RAPPORT_SEO_SPECIALIST_100_{timestamp}.md"
+        
+        with open(report_filename, 'w', encoding='utf-8') as f:
+            f.write(f"# 📊 RAPPORT D'ANALYSE SEO SPECIALIST - 100 EMPLOIS\n\n")
+            f.write(f"**Date :** {datetime.now().strftime('%d/%m/%Y à %H:%M')}\n")
+            f.write(f"**Mot-clé :** SEO Specialist\n")
+            f.write(f"**Localisation :** Paris, Île-de-France, France\n")
+            f.write(f"**Total analysé :** {len(jobs_with_details)} emplois\n\n")
+            
+            f.write(f"## 📈 STATISTIQUES GLOBALES\n\n")
+            f.write(f"- **Score total :** {total_score}\n")
+            f.write(f"- **Score moyen :** {avg_score:.2f}\n")
+            f.write(f"- **Efficacité :** {class_distribution.get('A', 0) + class_distribution.get('B', 0)} emplois pertinents sur {len(jobs_with_details)}\n\n")
+            
+            f.write(f"## 🏆 RÉPARTITION PAR CLASSE\n\n")
+            for class_letter in ['A', 'B', 'C', 'D', 'E']:
+                count = class_distribution.get(class_letter, 0)
+                percentage = (count / len(jobs_with_details)) * 100
+                f.write(f"### Classe {class_letter} : {count} emplois ({percentage:.1f}%)\n\n")
+                
+                class_jobs = [job for job in jobs_with_details if job['relevance_analysis']['relevance_class'] == class_letter]
+                for i, job in enumerate(class_jobs[:5], 1):
+                    title = job['basic_info'].get('title', 'N/A')
+                    company = job['company_name']
+                    score = job['relevance_analysis']['score']
+                    f.write(f"{i}. **{title}** - {company} (Score: {score})\n")
+                f.write("\n")
+        
+        print(f"✅ Rapport généré: {report_filename}")
+        
+        return {
+            'total_jobs': len(jobs_with_details),
+            'class_distribution': class_distribution,
+            'average_score': avg_score,
+            'filename': filename,
+            'report_filename': report_filename
         }
         
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(save_data, f, indent=2, ensure_ascii=False, default=str)
-        
-        print(f"\n💾 Analyse complète sauvegardée: {filename}")
-        
-        return jobs_with_details
-        
     except Exception as e:
-        print(f"❌ Erreur générale: {e}")
-        import traceback
-        traceback.print_exc()
+        print(f"❌ Erreur lors de l'analyse: {e}")
+        return None
 
 if __name__ == "__main__":
-    results = search_and_analyze_seo_complete()
+    results = search_and_analyze_seo_specialist_100()
+    if results:
+        print(f"\n🎉 ANALYSE TERMINÉE AVEC SUCCÈS !")
+        print(f"📊 {results['total_jobs']} emplois analysés")
+        print(f"📁 Résultats: {results['filename']}")
+        print(f"📋 Rapport: {results['report_filename']}")
+    else:
+        print(f"\n❌ Échec de l'analyse")
