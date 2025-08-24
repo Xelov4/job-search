@@ -273,7 +273,10 @@ def analyze_seo_relevance(title, description, company_name=None):
     seo_primary_score = 10
     
     # Mots-clés SEO Specialist secondaires (score moyen)
-    seo_secondary = ['organic', 'traffic', 'ranking', 'google', 'keywords', 'meta', 'backlink', 'on-page', 'off-page', 'technical seo', 'local seo']
+    seo_secondary = ['organic', 'traffic', 'ranking', 'google', 'keywords', 'meta', 'backlink', 'on-page', 'off-page', 'technical seo', 'local seo', 
+                     'ahrefs', 'cursor', 'claude ai', 'programmatic seo', 'semrush', 'moz', 'screaming frog', 'google search console', 'google analytics',
+                     'schema markup', 'structured data', 'core web vitals', 'page speed', 'mobile optimization', 'voice search', 'featured snippets',
+                     'local seo', 'google my business', 'review management', 'link building', 'content optimization', 'keyword research', 'competitor analysis']
     seo_secondary_score = 5
     
     # Mots-clés marketing digital et spécialisation (score faible)
@@ -631,17 +634,17 @@ def search_and_analyze_complete_enhanced():
     print("🔍 ANALYSE COMPLÈTE ENHANCED - TOUS CHAMPS LINKEDIN")
     print("📋 Mot-clé: SEO")
     print("🌍 Localisation: Paris, Île-de-France, France")
-    print("📊 Objectif: 50 emplois avec analyse exhaustive")
+    print("📊 Objectif: 100 emplois avec analyse exhaustive")
     print("⚡ Nouveautés: URLs LinkedIn, télétravail, fraîcheur, candidature directe")
     print("=" * 80)
     
     try:
         # Recherche initiale
-        print("🔍 Phase 1: Recherche des emplois (50 emplois)...")
+        print("🔍 Phase 1: Recherche des emplois (100 emplois)...")
         jobs = linkedin.search_jobs(
             keywords="SEO",
             location="Paris, Île-de-France, France", 
-            limit=50
+            limit=100
         )
         
         if not jobs:
