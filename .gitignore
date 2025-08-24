@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+# .env  # Temporairement commenté
 .venv
 env/
 venv/
@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # LinkedIn MCP specific
-config/.env
+# config/.env  # Temporairement commenté
 
 # Temporary directories
 data/temp/
