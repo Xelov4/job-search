@@ -632,19 +632,19 @@ def search_and_analyze_complete_enhanced():
     )
     
     print("🔍 ANALYSE COMPLÈTE ENHANCED - TOUS CHAMPS LINKEDIN")
-    print("📋 Mot-clé: SEO")
+    print("📋 Mot-clé: SEO Specialist")
     print("🌍 Localisation: Paris, Île-de-France, France")
-    print("📊 Objectif: 100 emplois avec analyse exhaustive")
+    print("📊 Objectif: 500 emplois avec analyse exhaustive")
     print("⚡ Nouveautés: URLs LinkedIn, télétravail, fraîcheur, candidature directe")
     print("=" * 80)
     
     try:
         # Recherche initiale
-        print("🔍 Phase 1: Recherche des emplois (100 emplois)...")
+        print("🔍 Phase 1: Recherche des emplois (500 emplois)...")
         jobs = linkedin.search_jobs(
-            keywords="SEO",
+            keywords="SEO Specialist",
             location="Paris, Île-de-France, France", 
-            limit=100
+            limit=500
         )
         
         if not jobs:
@@ -747,11 +747,11 @@ def search_and_analyze_complete_enhanced():
         # Données pour sauvegarde JSON
         save_data = {
             'timestamp': datetime.now().isoformat(),
-            'search_params': {
-                'keywords': 'SEO',
-                'location': 'Paris, Île-de-France, France',
-                'limit': 50
-            },
+                    'search_params': {
+            'keywords': 'SEO Specialist',
+            'location': 'Paris, Île-de-France, France',
+            'limit': 500
+        },
             'analysis_summary': {
                 'total_jobs': len(jobs_with_enhanced_details),
                 'total_score': total_score,

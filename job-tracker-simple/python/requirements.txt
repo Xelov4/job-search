@@ -15,5 +15,8 @@ requests==2.32.3
 # beautifulsoup4==4.13.4
 # lxml==5.4.0
 
+# === WEB SCRAPING ===
+playwright==1.48.0
+
 # === DÉVELOPPEMENT ET DEBUG ===
 python-dateutil==2.9.0
