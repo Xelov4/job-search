@@ -71,10 +71,10 @@ async def test_welcome_to_jungle_scraper():
     print("\n🌟 Test Welcome to the Jungle Scraper...")
     
     try:
-        from welcometothejungle_scraper import scrape_welcome_to_jungle
+        from wtj import scrape_wtj_fast
         
         # Test avec des paramètres limités
-        jobs = await scrape_welcome_to_jungle(
+        jobs = await scrape_wtj_fast(
             keywords="developer",  # Mot-clé plus général pour avoir des résultats
             location="Île-de-France",
             max_pages=1  # Une seule page pour le test
@@ -97,13 +97,20 @@ def test_supabase_connection():
     print("\n🗄️ Test connexion Supabase...")
     
     try:
-        from supabase_client import SupabaseJobClient
+        from supabase_client import SimpleJobManager
         
-        client = SupabaseJobClient()
-        stats = client.get_database_stats()
+        client = SimpleJobManager()
+        success = client.test_connection()
         
-        print(f"✅ Connexion Supabase OK: {stats['total']} jobs en base")
-        return True
+        if success:
+            # Essayer de récupérer des stats
+            stats = client.get_dashboard_stats()
+            total_jobs = stats.get('total_jobs', 0)
+            print(f"✅ Connexion Supabase OK: {total_jobs} jobs en base")
+        else:
+            print("❌ Test de connexion échoué")
+            
+        return success
         
     except Exception as e:
         print(f"❌ Erreur connexion Supabase: {str(e)}")
@@ -115,21 +122,23 @@ def test_linkedin_integration():
     print("\n🔗 Test intégration LinkedIn Enhanced...")
     
     try:
-        from linkedin_integration import LinkedInJobNormalizer
+        from linkedin_integration import LinkedInSupabaseSync, LinkedInDataNormalizer
         
-        # Test avec un job factice
+        # Test avec un job factice (format Enhanced)
         test_job = {
             'enhanced_info': {
                 'job_posting_id': 'test123',
                 'title': 'Test SEO Specialist',
-                'company': {'name': 'Test Company'},
-                'location': {'displayName': 'Paris, France'},
+                'company_name': 'Test Company',
+                'formatted_location': 'Paris, France',
                 'description': 'Test job description for SEO role',
-                'workplaceTypes': ['remote']
+                'work_remote_allowed': True,
+                'linkedin_job_url': 'https://linkedin.com/jobs/view/test123'
             }
         }
         
-        normalized = LinkedInJobNormalizer.normalize_job(test_job)
+        normalizer = LinkedInDataNormalizer()
+        normalized = normalizer.normalize_job(test_job)
         
         if normalized:
             print(f"✅ Normalisation LinkedIn OK: {normalized.title}")
